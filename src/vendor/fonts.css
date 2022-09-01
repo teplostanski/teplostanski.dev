@@ -1,0 +1,26 @@
+@font-face {
+  font-family: 'RobotoMono Regular';
+  src: url(../assets/fonts/RobotoMono-Regular.ttf);
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Montserrat SemiBold';
+  src: url(../assets/fonts/Montserrat-SemiBold.ttf);
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Montserrat Bold';
+  src: url(../assets/fonts/Montserrat-Bold.ttf);
+  font-style: normal;
+}
+html{
+  font-family: 'RobotoMono Regular';
+  color: var(--gray-1);
+}
+*{
+  font-family: 'RobotoMono Regular';
+  color: var(--gray-1);
+}
+h1,h2,h3,h4,h5,h6{
+  font-family: 'Montserrat SemiBold'
+}
