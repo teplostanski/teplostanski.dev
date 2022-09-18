@@ -4,6 +4,7 @@ import Footer from '../Footer/Footer';
 import NavMenu from '../NavMenu/NavMenu';
 import About from '../../pages/About/About';
 import Projects from '../../pages/Projects/Projects';
+import PageToTop from '../../scrolls/PageToTop';
 
 function Redirect({ redirectTo }) {
   return <Navigate to={redirectTo} />;
@@ -13,6 +14,7 @@ export default function App() {
   return (
     <div className="container">
       <NavMenu />
+      <PageToTop />
       <Routes>
         <Route
           exact
