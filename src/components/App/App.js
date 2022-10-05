@@ -5,6 +5,7 @@ import NavMenu from '../NavMenu/NavMenu';
 import About from '../../pages/About/About';
 import Projects from '../../pages/Projects/Projects';
 import PageToTop from '../../scrolls/PageToTop';
+import ScrollIndicator from '../../scrolls/ScrollIndicator/ScrollIndicator';
 
 function Redirect({ redirectTo }) {
   return <Navigate to={redirectTo} />;
@@ -13,6 +14,7 @@ function Redirect({ redirectTo }) {
 export default function App() {
   return (
     <div className="container">
+      <ScrollIndicator />
       <NavMenu />
       <PageToTop />
       <Routes>
