@@ -43,3 +43,15 @@
     margin-top: 0;
   }
 }
+
+@media only screen and (max-width: 648px) {
+  .copyright__icon {
+    width: 8%;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .copyright__icon {
+    width: 10%;
+  }
+}
