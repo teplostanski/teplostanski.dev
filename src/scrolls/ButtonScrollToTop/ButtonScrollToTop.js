@@ -6,7 +6,7 @@ const ButtonScrollToTop = ({ children }) => {
   const [visible, setVisiblity] = useState(false);
 
   useEffect(() => {
-    if (pageYOffset > 600) {
+    if (pageYOffset > 300) {
       setVisiblity(true);
     } else {
       setVisiblity(false);
