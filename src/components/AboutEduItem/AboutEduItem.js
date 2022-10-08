@@ -1,15 +1,15 @@
-import './AboutEduItem.css';
+import '../AboutSkillItem/AboutSkillItem.css';
 
 export default function AboutSkillItem({
   title = 'Title',
   eduItems = ['HTML', 'CSS'],
 }) {
   return (
-    <div className="about-edu__items">
+    <div className="about__items about__items_edu">
       <h1 className="title">{title}</h1>
-      <div className="eduItems">
+      <div className="items__edu">
         {eduItems.map((item, index) => (
-          <div className="about-edu__item" key={index}>
+          <div className="item" key={index}>
             <p className="text">{item}</p>
           </div>
         ))}

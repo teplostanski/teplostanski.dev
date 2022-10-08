@@ -12,7 +12,6 @@
 
 .about__subheading {
   font-size: 2.2rem;
-  margin-bottom: 2rem;
 }
 
 .about__subheading span {
@@ -23,25 +22,19 @@
 
 .about__heading {
   font-size: 3.6rem;
-  margin-bottom: 3rem;
-}
-
-.about__info {
-  margin: 0 0 2rem 0;
 }
 
 .about__info .past {
   max-width: 100%;
   line-height: 2.7rem;
-  margin: 0 0 2rem 0;
 }
 
-.about__info__items {
-  margin-top: 15rem;
+.about__info .past:last-of-type {
+  margin: 2rem 0 0 0;
 }
 
 .about__info__item {
-  margin-bottom: 10rem;
+  margin-top: 5rem;
 }
 
 .about__info__heading {

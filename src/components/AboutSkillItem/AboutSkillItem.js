@@ -8,7 +8,7 @@ export default function AboutSkillItem({
   return (
     <div className="about__items">
       <h1 className="title">{title}</h1>
-      <div className="items">
+      <div className="items items__grid">
         {skillItems.map((item, index) => (
           <div className="item" key={index}>
             <PastText>{item}</PastText>
