@@ -1,5 +1,5 @@
 .about {
-  padding: 20rem 0 10rem 0;
+  padding: 10rem 0 10rem 0;
 }
 
 .top-section {
@@ -27,12 +27,13 @@
 }
 
 .about__info {
-  margin-bottom: 4rem;
-  text-align: center;
+  margin: 0 0 2rem 0;
 }
 
 .about__info .past {
   max-width: 100%;
+  line-height: 2.7rem;
+  margin: 0 0 2rem 0;
 }
 
 .about__info__items {
