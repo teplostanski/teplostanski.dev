@@ -60,9 +60,9 @@ export default function Footer() {
       </div>
       <div className="copyright">
         <p className="copyright__text">
-          © 2022 - Made with{' '}
-          <img className="copyright__icon" src={love} alt="love" /> by Игорь
-          Теплостанский
+          © 2022 - Сделано с{' '}
+          <img className="copyright__icon" src={love} alt="любовью" /> Игорем
+          Теплостанским
         </p>
       </div>
     </div>
