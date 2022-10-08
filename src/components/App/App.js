@@ -6,6 +6,7 @@ import About from '../../pages/About/About';
 import Projects from '../../pages/Projects/Projects';
 import PageToTop from '../../scrolls/PageToTop';
 import ScrollIndicator from '../../scrolls/ScrollIndicator/ScrollIndicator';
+import ButtonScrollToTopRender from '../../scrolls/ButtonScrollToTop/ButtonScrollToTopRender';
 
 function Redirect({ redirectTo }) {
   return <Navigate to={redirectTo} />;
@@ -17,6 +18,7 @@ export default function App() {
       <ScrollIndicator />
       <NavMenu />
       <PageToTop />
+      <ButtonScrollToTopRender />
       <Routes>
         <Route
           exact
