@@ -60,7 +60,7 @@ export default function Footer() {
       </div>
       <div className="copyright">
         <p className="copyright__text">
-          © 2022 - Сделано с{' '}
+          © 2022-2023 - Сделано с{' '}
           <img className="copyright__icon" src={love} alt="любовью" /> Игорем
           Теплостанским
         </p>
