@@ -7,7 +7,7 @@ import travel from '../images/travel.png';
 const projects = [
   {
     id: uuidv4(),
-    name: 'Movies-explorer',
+    name: 'Movies Explorer',
     techs: 'HTML CSS BEM Adaptive ReactJS',
     desc: 'Данное вeб-приложение является сайтом-портфолио и мини-кинопоиском, открывающимся после регистрации.',
     img: movies,
