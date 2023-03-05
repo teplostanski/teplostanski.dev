@@ -6,7 +6,7 @@ export default function Footer() {
   return (
     <div className="footer">
       <div className="footer__container">
-        <div className="footer__items">
+        <div className="footer__items footer__site-map">
           <FooterColumns
             heading="Карта Сайта"
             links={[
@@ -23,7 +23,7 @@ export default function Footer() {
             ]}
           />
         </div>
-        <div className="footer__items">
+        <div className="footer__items footer__contacts">
           <FooterColumns
             heading="Контакты"
             links={[

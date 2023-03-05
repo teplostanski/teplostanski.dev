@@ -26,12 +26,17 @@
   align-items: center;
 }
 
-
 @keyframes scrollTop {
   from {
-      transform: translateX(4px);
+    transform: translateX(4px);
   }
   to {
-      transform: translateX(-1px);
+    transform: translateX(-1px);
+  }
+}
+
+@media only screen and (max-width: 578px) {
+  .scroll-to-top {
+    bottom: 25%;
   }
 }

@@ -30,6 +30,22 @@
   .footer__container {
     flex-direction: column;
     gap: 0rem;
+    grid-template-columns: auto;
+    grid-template-areas:
+      'map links'
+      'contacts links';
+  }
+  .footer__site-map {
+    grid-area: map;
+  }
+  .footer__contacts {
+    grid-area: contacts;
+  }
+  .footer__links {
+    grid-area: links;
+  }
+  .footer__links .footer__items_links {
+    grid-template-columns: auto;
   }
   .footer__container > div {
     margin-top: 5rem;
@@ -46,6 +62,15 @@
 @media only screen and (max-width: 648px) {
   .copyright__icon {
     width: 8%;
+  }
+}
+
+@media only screen and (max-width: 578px) {
+  .footer__container {
+    grid-template-areas:
+      'contacts'
+      'links'
+      'map';
   }
 }
 
