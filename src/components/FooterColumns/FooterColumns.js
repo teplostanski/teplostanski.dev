@@ -14,7 +14,7 @@ export default function FooterColumns({
   return (
     <div>
       <h2 className="heading heading-color">{heading}</h2>
-      <ul>
+      <ul className="footer__items_links">
         {links.map((item, index) => (
           <li key={index}>
             {item.type === 'Link' ? (

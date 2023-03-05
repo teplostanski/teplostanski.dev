@@ -6,7 +6,7 @@ export default function Footer() {
   return (
     <div className="footer">
       <div className="footer__container">
-        <div className="footer__col2">
+        <div className="footer__items">
           <FooterColumns
             heading="Карта Сайта"
             links={[
@@ -23,7 +23,7 @@ export default function Footer() {
             ]}
           />
         </div>
-        <div className="footer__col3">
+        <div className="footer__items">
           <FooterColumns
             heading="Контакты"
             links={[
@@ -31,14 +31,10 @@ export default function Footer() {
                 title: 'teplostanski@yandex.ru',
                 path: 'mailto:teplostanski@yandex.ru',
               },
-              {
-                title: 'igrtnsk@jabber.ru',
-                path: 'https://jabber.ru',
-              },
             ]}
           />
         </div>
-        <div className="footer__col4">
+        <div className="footer__items footer__links">
           <FooterColumns
             heading="Ссылки"
             links={[
@@ -48,11 +44,23 @@ export default function Footer() {
               },
               {
                 title: 'Habr Карьера',
-                path: 'https://',
+                path: 'https://career.habr.com/r0bomurlok1',
               },
               {
                 title: 'HH.ru',
-                path: 'https://hh.ru',
+                path: 'https://hh.ru/resume/b8fc6622ff0b63a4dd0039ed1f68396a53684e',
+              },
+              {
+                title: 'LinkedIn',
+                path: '#',
+              },
+              {
+                title: 'Habr',
+                path: 'https://habr.com/ru/users/r0bomurlok/',
+              },
+              {
+                title: 'StackOverflow',
+                path: 'https://stackoverflow.com/users/21089931/r0bomurlok',
               },
             ]}
           />

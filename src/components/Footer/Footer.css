@@ -2,12 +2,11 @@
   margin-bottom: 5rem;
 }
 .footer__container {
-  display: flex;
+  display: grid;
+  grid-template-columns: 0.9fr 1fr 2fr;
   gap: 3rem;
 }
-.footer__col2,
-.footer__col3,
-.footer__col4 {
+.footer__items {
   flex: 1;
 }
 .copyright {
