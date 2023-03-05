@@ -8,6 +8,7 @@ const projects = [
   {
     id: uuidv4(),
     name: 'Movies-explorer',
+    techs: 'HTML CSS BEM Adaptive ReactJS',
     desc: 'Данное вeб-приложение является сайтом-портфолио и мини-кинопоиском, открывающимся после регистрации.',
     img: movies,
     site: '',
@@ -16,6 +17,7 @@ const projects = [
   {
     id: uuidv4(),
     name: 'Место',
+    techs: 'HTML CSS BEM Adaptive ReactJS',
     desc: '"Mesto" — это сайт, где люди обмениваются фотографиями. "Местом" может быть что угодно: город, область или какое-то заведение.',
     img: mesto,
     site: 'https://r0bomurlok.github.io/react-mesto-auth/',
@@ -24,6 +26,7 @@ const projects = [
   {
     id: uuidv4(),
     name: 'Путешествие по России',
+    techs: 'HTML CSS BEM Adaptive',
     desc: 'Адаптивная веб-страница "Путешествия по России", описывающая необыкновенные места России.',
     img: travel,
     site: 'https://r0bomurlok.github.io/travel/',
@@ -32,6 +35,7 @@ const projects = [
   {
     id: uuidv4(),
     name: 'Научиться учиться',
+    techs: 'HTML CSS BEM',
     desc: 'Это одноcтраничный сайт о современных и эффективных подходов к обучению.',
     img: howToLearn,
     site: 'https://r0bomurlok.github.io/how-to-learn/index.html',

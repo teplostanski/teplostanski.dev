@@ -5,6 +5,7 @@ import './ProjectItem.css';
 export default function ProjectItem({
   img = ProjectImg,
   title = 'Project Name',
+  techs = 'HTML CSS',
   desc = 'Example description',
   site = 'https://example.com',
   source = 'https://example.com',
@@ -38,6 +39,7 @@ export default function ProjectItem({
       </div>
       <div className="project-item__info">
         <h3 className="project-item__title">{title}</h3>
+        <span className="project-item__techs">{techs}</span>
         <p className="project-item__desc">{desc}</p>
       </div>
     </div>

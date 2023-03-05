@@ -42,6 +42,7 @@ export default function Projects() {
           <ProjectItem
             key={item.id}
             title={item.name}
+            techs={item.techs}
             desc={item.desc}
             img={item.img}
             site={item.site}

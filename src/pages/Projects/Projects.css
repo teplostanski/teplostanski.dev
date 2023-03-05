@@ -16,12 +16,12 @@
 }
 
 .projects__searchBar ::placeholder{
-  color: var(--gray-1);
+  color: var(--white);
   opacity: 1;
 }
 
 .projects__searchBar::-ms-input-placeholder {
-  color: var(--gray-1);
+  color: var(--white);
 }
 
 .projects__searchBar input {
@@ -42,7 +42,7 @@
 }
 
 /*.projects__searchBar .searchIcon path {
-  color: var(--gray-1);
+  color: var(--white);
 }*/
 
 @media only screen and (max-width: 768px) {
