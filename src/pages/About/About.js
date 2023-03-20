@@ -35,15 +35,18 @@ export default function About() {
             'CSS',
             'SCSS',
             'JavaScript',
-            'REACT',
-            'BEM',
+            'TypeScript',
+            'React.js',
+            'Astro.js',
+            'Vite.js',
+            'MobX',
             'Webpack',
             'Gulp',
           ]}
         />
         <AboutSkillItem
           title="BackEnd"
-          skillItems={['Node', 'Express', 'MongoDB']}
+          skillItems={['Node.js', 'Express.js', 'MongoDB']}
         />
       </div>
       <div className="about__info__items">
