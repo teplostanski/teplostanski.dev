@@ -40,11 +40,11 @@ export default function Footer() {
             links={[
               {
                 title: 'Github',
-                path: 'https://github.com/r0bomurlok',
+                path: 'https://github.com/teplostanski',
               },
               {
                 title: 'Habr Карьера',
-                path: 'https://career.habr.com/r0bomurlok1',
+                path: 'https://career.habr.com/teplostanski1',
               },
               {
                 title: 'HH.ru',
@@ -56,11 +56,11 @@ export default function Footer() {
               },
               {
                 title: 'Habr',
-                path: 'https://habr.com/ru/users/r0bomurlok/',
+                path: 'https://habr.com/ru/users/teplostanski/',
               },
               {
                 title: 'StackOverflow',
-                path: 'https://stackoverflow.com/users/21089931/r0bomurlok',
+                path: 'https://stackoverflow.com/users/21089931/teplostanski',
               },
             ]}
           />

@@ -32,7 +32,7 @@ const projects = [
     desc: 'Данное вeб-приложение является сайтом-портфолио и мини-кинопоиском, открывающимся после регистрации.',
     img: movies,
     site: '',
-    source: 'https://github.com/r0bomurlok/movies-explorer-frontend',
+    source: 'https://github.com/teplostanski/movies-explorer-frontend',
   },
   {
     id: uuidv4(),
@@ -40,8 +40,8 @@ const projects = [
     techs: 'HTML CSS BEM Adaptive React.js',
     desc: '"Mesto" — это сайт, где люди обмениваются фотографиями. "Местом" может быть что угодно: город, область или какое-то заведение.',
     img: mesto,
-    site: 'https://r0bomurlok.github.io/react-mesto-auth/',
-    source: 'https://github.com/r0bomurlok/react-mesto-auth',
+    site: 'https://teplostanski.github.io/react-mesto-auth/',
+    source: 'https://github.com/teplostanski/react-mesto-auth',
   },
   {
     id: uuidv4(),
@@ -49,8 +49,8 @@ const projects = [
     techs: 'HTML CSS BEM Adaptive',
     desc: 'Адаптивная веб-страница "Путешествия по России", описывающая необыкновенные места России.',
     img: travel,
-    site: 'https://r0bomurlok.github.io/travel/',
-    source: 'https://github.com/r0bomurlok/travel',
+    site: 'https://teplostanski.github.io/travel/',
+    source: 'https://github.com/teplostanski/travel',
   },
   {
     id: uuidv4(),
@@ -58,8 +58,8 @@ const projects = [
     techs: 'HTML CSS BEM',
     desc: 'Это одноcтраничный сайт о современных и эффективных подходов к обучению.',
     img: howToLearn,
-    site: 'https://r0bomurlok.github.io/how-to-learn/index.html',
-    source: 'https://github.com/how-to-learn',
+    site: 'https://teplostanski.github.io/how-to-learn/index.html',
+    source: 'https://github.com/teplostanski/how-to-learn',
   },
 ];
 
