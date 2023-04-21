@@ -59,7 +59,7 @@ const projects = [
     desc: 'Это одноcтраничный сайт о современных и эффективных подходов к обучению.',
     img: howToLearn,
     site: 'https://teplostanski.github.io/how-to-learn/index.html',
-    source: 'https://github.com/teplostanski/how-to-learn',
+    source: 'https://github.com/how-to-learn',
   },
 ];
 

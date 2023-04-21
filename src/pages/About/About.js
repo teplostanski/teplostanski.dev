@@ -56,6 +56,7 @@ export default function About() {
             title="Курсы"
             eduItems={['Яндекс.Практикум Факультет "Веб Разработчик"']}
           />
+          <AboutEduItem title="Стажировки" eduItems={['Birka.uk (2023)']} />
           <AboutEduItem
             title="Колледж"
             eduItems={[

@@ -1,9 +1,10 @@
 .about__items {
   display: flex;
   align-items: center;
-  justify-content: flex-start;
   position: relative;
-  margin-top: 7rem;
+  /*margin-top: 7rem;*/
+  justify-content: flex-start;
+  gap: 25px;
 }
 
 .title {
@@ -20,7 +21,7 @@
 .items__edu {
   display: flex;
   gap: 1.5rem;
-  position: absolute;
+  /*position: absolute;*/
   left: 18rem;
 }
 
