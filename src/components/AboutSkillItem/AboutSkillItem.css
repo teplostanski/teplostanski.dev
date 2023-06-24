@@ -2,7 +2,6 @@
   display: flex;
   align-items: center;
   position: relative;
-  /*margin-top: 7rem;*/
   justify-content: flex-start;
   gap: 25px;
 }
@@ -14,14 +13,13 @@
 .items {
   display: grid;
   gap: 1.5rem;
-  position: absolute;
-  left: 18rem;
+  /*position: absolute;*/
+  /*left: 18rem;*/
 }
 
 .items__edu {
   display: flex;
   gap: 1.5rem;
-  /*position: absolute;*/
   left: 18rem;
 }
 

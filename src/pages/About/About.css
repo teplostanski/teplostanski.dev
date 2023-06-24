@@ -36,6 +36,10 @@
 
 .about__info__item {
   margin-top: 5rem;
+  display: flex;
+  gap: 60px;
+  flex-direction: column;
+  align-items: center;
 }
 
 .about__info__heading {
