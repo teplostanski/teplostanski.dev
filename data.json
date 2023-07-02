@@ -1,0 +1,118 @@
+{
+  "projects": {
+    "jobs": [
+      {
+        "id": null,
+        "name": "Movies Explorer",
+        "stack": "HTML CSS BEM Adaptive React.js",
+        "partake": "Соло",
+        "desc": "Данное вeб-приложение является сайтом-портфолио и мини-кинопоиском, открывающимся после регистрации.",
+        "preview": null,
+        "website": "",
+        "source": "https://github.com/teplostanski/movies-explorer-frontend"
+      },
+      {
+        "id": null,
+        "name": "Место",
+        "stack": "HTML CSS BEM Adaptive React.js",
+        "partake": "Соло",
+        "desc": "\"Mesto\" — это сайт, где люди обмениваются фотографиями. Местом может быть что угодно: город, область или какое-то заведение.",
+        "preview": null,
+        "website": "https://teplostanski.github.io/react-mesto-auth/",
+        "source": "https://github.com/teplostanski/react-mesto-auth"
+      },
+      {
+        "id": null,
+        "name": "Путешествие по России",
+        "stack": "HTML CSS BEM Adaptive",
+        "partake": "Соло",
+        "desc": "Адаптивная веб-страница Путешествия по России, описывающая необыкновенные места России.",
+        "preview": null,
+        "website": "https://teplostanski.github.io/travel/",
+        "source": "https://github.com/teplostanski/travel"
+      },
+      {
+        "id": null,
+        "name": "Научиться учиться",
+        "stack": "HTML CSS BEM",
+        "partake": "Соло",
+        "desc": "Это одноcтраничный сайт о современных и эффективных подходов к обучению.",
+        "preview": null,
+        "website": "https://teplostanski.github.io/how-to-learn/index.html",
+        "source": "https://github.com/how-to-learn"
+      }
+    ],
+    "pets": [
+      {
+        "id": null,
+        "name": "aned",
+        "stack": "HTML CSS TypeScript React.js",
+        "partake": "Соло",
+        "desc": "Пет-проект. Онлайн редактор markdown-заметок",
+        "preview": "aned",
+        "website": "https://aned.teplostanski.dev/",
+        "source": "https://github.com/teplostanski/aned"
+      },
+      {
+        "id": null,
+        "name": "Портфолио",
+        "stack": ["HTML", "CSS", "BEM", "React.js"],
+        "partake": "Соло",
+        "desc": "Сайт-портфолио",
+        "preview": "portfolio",
+        "website": "https://teplostanski.dev/",
+        "source": "https://github.com/teplostanski/portfolio"
+      }
+    ],
+    "npm": [
+      {
+        "id": null,
+        "name": "aned",
+        "stack": "HTML CSS TypeScript React.js",
+        "partake": "Соло",
+        "desc": "Пет-проект. Онлайн редактор markdown-заметок",
+        "preview": "aned",
+        "website": "https://aned.teplostanski.dev/",
+        "source": "https://github.com/teplostanski/aned"
+      },
+      {
+        "id": null,
+        "name": "Портфолио",
+        "stack": ["HTML", "CSS", "BEM", "React.js"],
+        "partake": "Соло",
+        "desc": "Сайт-портфолио",
+        "preview": "portfolio",
+        "website": "https://teplostanski.dev/",
+        "source": "https://github.com/teplostanski/portfolio"
+      }
+    ]
+  },
+  "skills": {
+    "langs": ["TypeScript", "JavaScript"],
+    "frontend": {
+      "frameworks": ["React.js", "Astro.js"],
+      "stateManagers": ["MobX"],
+      "markupLangs": ["SCSS", "CSS", "HTML"]
+    },
+    "backand": {
+      "runtime": ["Node.js"],
+      "frameworks": ["Express.js", "Commander.js"],
+      "db": ["MongoDB"]
+    }
+  },
+  "experience": {
+    "edu": [
+      {
+        "institution": "Яндекс.Практикум",
+        "faculty": "Веб Разработчик",
+        "year": "2021-2022"
+      },
+      {
+        "institution": "Педагогический колледж",
+        "faculty": "Преподаватель информатики начальных классов",
+        "year": "2011-2015"
+      }
+    ],
+    "internships": [{ "company": "Birka.uk", "year": "2023" }]
+  }
+}
