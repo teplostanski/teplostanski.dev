@@ -1,3 +1,23 @@
+<div align="center">
+  <h1>portfolio v2</h1>
+
+  <a href="https://teplostanski.dev">  <img src="https://img.shields.io/badge/-teplostanski.dev-fecc00?style=for-the-badge" alt="https://teplostanski.dev"></a>
+
+  <br/>
+
+  <img src="https://img.shields.io/badge/-Typescript-0d1117?style=for-the-badge&logo=Typescript" alt="Typescript">
+  <img src="https://img.shields.io/badge/-React-0d1117?style=for-the-badge&logo=React" alt="React">
+  <img src="https://img.shields.io/badge/-Next.js-0d1117?style=for-the-badge&logo=Next.js" alt="Next.js">
+  <img src="https://img.shields.io/badge/-SCSS-0d1117?style=for-the-badge&logo=SASS" alt="SCSS">
+  
+  <img src="https://img.shields.io/website?down_color=%23ff0000&down_message=offline&style=for-the-badge&up_color=green&up_message=online&url=https%3A%2F%2Fteplostanski.dev" alt="Website">
+  <img src="https://img.shields.io/github/license/teplostanski/portfolio?style=for-the-badge" alt="license">
+
+</div>
+
+<br/>
+<br/>
+
 # Пооекты
 
 # [Проекты с длительной поддержкой находятся в категории "Пет-проекты"](#пет-проекты)
