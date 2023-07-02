@@ -114,5 +114,15 @@
       }
     ],
     "internships": [{ "company": "Birka.uk", "year": "2023" }]
+  },
+  "links": {
+    "email": "",
+    "github": "",
+    "telegram": "",
+    "linkedin": "",
+    "habr-carier": "",
+    "habr": "",
+    "stackoverflow": "",
+    "resume": ""
   }
 }

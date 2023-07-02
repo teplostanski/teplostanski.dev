@@ -20,7 +20,8 @@
   },
   "devDependencies": {
     "gh-pages": "^4.0.0",
-    "prettier": "latest"
+    "prettier": "latest",
+    "sass": "^1.63.6"
   },
   "homepage": "https://teplostanski.dev/"
 }
