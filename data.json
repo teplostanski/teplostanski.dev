@@ -116,13 +116,14 @@
     "internships": [{ "company": "Birka.uk", "year": "2023" }]
   },
   "links": {
-    "email": "",
-    "github": "",
-    "telegram": "",
-    "linkedin": "",
-    "habr-carier": "",
-    "habr": "",
-    "stackoverflow": "",
-    "resume": ""
+    "email": "teplostanski@yandex.ru",
+    "github": "https://github.com/teplostanski",
+    "telegram": "https://t.me/teplostanski",
+    "linkedin": "https://www.linkedin.com/in/%D0%B8%D0%B3%D0%BE%D1%80%D1%8C-%D1%82%D0%B5%D0%BF%D0%BB%D0%BE%D1%81%D1%82%D0%B0%D0%BD%D1%81%D0%BA%D0%B8%D0%B9-38ab67254",
+    "habr-carier": "https://career.habr.com/teplostanski1",
+    "habr": "https://habr.com/ru/users/teplostanski/",
+    "stackoverflow": "https://stackoverflow.com/users/21089931/teplostanski",
+    "hh": "https://hh.ru/resume/b8fc6622ff0b63a4dd0039ed1f68396a53684e",
+    "resume": "https://resume.teplostanski.dev"
   }
 }
