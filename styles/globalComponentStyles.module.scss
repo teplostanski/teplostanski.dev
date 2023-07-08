@@ -3,5 +3,9 @@
   height: var(--height);
   border: solid var(--border-color);
   border-width: var(--border-width);
-  //background: #000;
+}
+
+.title {
+  font-size: 50px;
+  margin: 0;
 }

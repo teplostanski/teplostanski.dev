@@ -1,7 +1,9 @@
+import styles from './Footer.module.scss'
+
 const Footer = () => {
   return (
     <footer>
-      <div>Footer</div>
+      <div className={styles.copyright}>creator Igor Teplostanski</div>
     </footer>
   )
 }
