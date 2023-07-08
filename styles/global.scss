@@ -1,3 +1,45 @@
-@import "normalize.css/normalize";
-@import "./colors.scss";
-@import "./fonts.scss";
+@import 'normalize.css/normalize';
+@import './colors.scss';
+@import './fonts.scss';
+
+:root {
+  --width: calc(100% - 2px);
+  --border-width: 0 0 1px 0;
+  --header-width: 75px;
+  --height: calc(100vh - var(--header-width));
+}
+
+html {
+  scroll-behavior: auto;
+  scrollbar-width: none;
+  -webkit-overflow-scrolling: touch;
+}
+
+html,
+body {
+  overflow: hidden;
+}
+
+body {
+  scrollbar-width: none;
+}
+
+body::-webkit-scrollbar {
+  width: 0;
+  background-color: transparent;
+}
+body::-moz-scrollbar {
+  width: 0;
+  background-color: transparent;
+}
+body::-ms-scrollbar {
+  width: 0;
+  background-color: transparent;
+}
+
+.container{
+  width: var(--width);
+  height: var(--height);
+  border: solid var(--border-color);
+  border-width: var(--border-width);
+}

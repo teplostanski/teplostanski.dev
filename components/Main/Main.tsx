@@ -1,6 +1,8 @@
+import styles from './Main.module.scss'
+
 const Main = () => {
   return (
-    <section>
+    <section className={styles.container}>
       <div>Main</div>
     </section>
   )

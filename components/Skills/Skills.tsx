@@ -1,6 +1,8 @@
+import styles from './Skills.module.scss'
+
 const Skills = () => {
   return (
-    <section>
+    <section className={styles.container}>
       <div>Skills</div>
     </section>
   )
