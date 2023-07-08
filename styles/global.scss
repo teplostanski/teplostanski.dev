@@ -3,7 +3,7 @@
 @import './fonts.scss';
 
 :root {
-  --width: calc(100% - 2px);
+  --width: 100%;
   --border-width: 0 0 1px 0;
   --header-width: 75px;
   --height: calc(100vh - var(--header-width));
