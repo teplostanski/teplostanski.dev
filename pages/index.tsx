@@ -6,6 +6,7 @@ import Skills from '../components/Skills/Skills'
 import Links from '../components/Links/Links'
 import Footer from '../components/Footer/Footer'
 import { keywords, PageIndexDesc, PageIndexTitle } from '../constants'
+//import '../styles/index.scss'
 
 const Index = () => {
   return (

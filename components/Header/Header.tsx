@@ -1,6 +1,8 @@
+import styles from './Header.module.scss'
+
 const Header = () => {
   return (
-    <header>
+    <header className={styles.container}>
       <div>Header</div>
     </header>
   )
