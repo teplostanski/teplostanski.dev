@@ -4,7 +4,7 @@
 
 :root {
   --width: 100%;
-  --border-width: 0 0 1px 0;
+  --border-width: 1px 0 0 0;
   --header-width: 75px;
   --height: calc(100vh - var(--header-width));
 }
@@ -21,7 +21,7 @@ body {
 }
 
 body {
-  font-family: 'NeutralFace';
+  font-family: 'ttr';
   font-size: 16px;
   scrollbar-width: none;
 }
@@ -42,6 +42,8 @@ body::-ms-scrollbar {
 .container{
   width: var(--width);
   height: var(--height);
+  background: #fff;
+  
   border: solid var(--border-color);
   border-width: var(--border-width);
 }
