@@ -1,0 +1,12 @@
+.container {
+  width: calc(100% - 2px);
+  height: var(--header-width);
+  border: solid var(--border-color);
+  border-width: 0 0 1px 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  transform: translate(0px, 0px);
+  background-color: var(--bg);
+  z-index: 10;
+}

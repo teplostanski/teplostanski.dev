@@ -1,0 +1,49 @@
+@import 'normalize.css/normalize';
+@import './colors.scss';
+@import './fonts.scss';
+
+:root {
+  --width: 100%;
+  --border-width: 1px 0 0 0;
+  --header-width: 75px;
+  --height: calc(100vh - var(--header-width));
+}
+
+html {
+  scroll-behavior: auto;
+  scrollbar-width: none;
+  -webkit-overflow-scrolling: touch;
+}
+
+html,
+body {
+  overflow: hidden;
+}
+
+body {
+  font-family: 'ttr';
+  font-size: 16px;
+  scrollbar-width: none;
+}
+
+body::-webkit-scrollbar {
+  width: 0;
+  background-color: transparent;
+}
+body::-moz-scrollbar {
+  width: 0;
+  background-color: transparent;
+}
+body::-ms-scrollbar {
+  width: 0;
+  background-color: transparent;
+}
+
+.container{
+  width: var(--width);
+  height: var(--height);
+  background: #fff;
+  
+  border: solid var(--border-color);
+  border-width: var(--border-width);
+}

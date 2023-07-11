@@ -1,0 +1,24 @@
+@import '../../styles/globalComponentStyles.module.scss';
+
+.container {
+  z-index: 2;
+  //background: #df81ac;
+}
+
+.skills__wrapper {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: auto;
+  width: max-content;
+  gap: 25px;
+  margin: 50px;
+}
+
+.skills__container {
+  width: fit-content;
+  border: 1px solid black;
+  background: var(--bg);
+  z-index: 3;
+  padding: 8px;
+}
+
