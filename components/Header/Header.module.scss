@@ -1,7 +1,8 @@
 .container {
   width: calc(100% - 2px);
   height: var(--header-width);
-  border: 1px solid var(--border-color);
+  border: solid var(--border-color);
+  border-width: 0 0 1px 0;
   position: fixed;
   top: 0;
   left: 0;

@@ -1,5 +1,46 @@
 @import '../../styles/globalComponentStyles.module.scss';
 
 .container {
-  height: 50vh;
+  //height: 50vh;
+  height: fit-content;
+  width: auto;
+  padding: 50px;
+  background: var(--fg);
+  z-index: 3;
+}
+
+.links__wrapper {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: auto;
+  width: max-content;
+  gap: 25px;
+  margin: 50px;
+}
+
+.links {
+  text-decoration: none;
+  width: fit-content;
+  cursor: pointer;
+}
+
+.links__container {
+  border: 1px solid white;
+  width: fit-content;
+  padding: 8px;
+}
+
+.links__body {
+  color: white;
+  font-size: 18px;
+  &_arrow {
+    width: 14px;
+    height: 14px;
+    display: inline-block;
+    margin-left: 7px;
+    filter: invert(1);
+    //color: aqua;
+  }&:hover{
+    color: gray;
+  }
 }

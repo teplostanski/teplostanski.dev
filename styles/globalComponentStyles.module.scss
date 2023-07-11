@@ -3,6 +3,8 @@
   height: var(--height);
   border: solid var(--border-color);
   border-width: var(--border-width);
+  position: relative;
+  background: var(--bg);
 }
 
 .title {
@@ -29,12 +31,12 @@
     left: calc(-50vw / 20);
     z-index: 0;
   }
-  &__text {
+  &__wrapper {
     position: absolute;
     display: flex;
     flex-direction: column;
-    left: calc(5vw - 150px / 20);
-    bottom: calc(5vw - 150px / 20);
+    left: calc(5vw - 10px);
+    bottom: calc(5vw - 10px);
   }
   &__title {
     font-size: calc(50vw / 14);
@@ -49,4 +51,9 @@
     font-size: calc(50vw / 28);
     z-index: 1;
   }
+  &__text {
+    width: 50%;
+    hyphens: auto;
+  }
 }
+

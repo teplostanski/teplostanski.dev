@@ -15,12 +15,21 @@
       height: 100%;
     }
   }
+  &__description{
+    //background: rgb(255, 247, 136);
+    height: 100%;
+  }
 }
 
 .image {
-  width: 250px;
-  height: 300px;
-  border: 1px solid red;
+  //min-width: fit-content;
+  //min-height: fit-content;
+  width: 25vw;
+  max-width: 350px;
+  min-width: 200px;
+  height: auto;
+  //background-color: yellow;
+  border: 1px solid black;
 }
 
 

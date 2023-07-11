@@ -88,16 +88,16 @@
     ]
   },
   "skills": {
-    "langs": ["TypeScript", "JavaScript"],
+    "langs": ["typescript", "javascript"],
     "frontend": {
-      "frameworks": ["React.js", "Astro.js"],
-      "stateManagers": ["MobX"],
-      "markupLangs": ["SCSS", "CSS", "HTML"]
+      "frameworks": ["react", "astro", "next.js"],
+      "stateManagers": ["mobx"],
+      "markupLangs": ["sass", "css3", "html5"]
     },
     "backand": {
-      "runtime": ["Node.js"],
-      "frameworks": ["Express.js", "Commander.js"],
-      "db": ["MongoDB"]
+      "runtime": ["node.js"],
+      "frameworks": ["express", "commander.js"],
+      "db": ["mongodb"]
     }
   },
   "experience": {
