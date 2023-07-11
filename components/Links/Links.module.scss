@@ -11,10 +11,10 @@
 
 .links__wrapper {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   grid-template-rows: auto;
   width: max-content;
-  gap: 25px;
+  gap: 25px 65px;
   margin: 50px;
 }
 
