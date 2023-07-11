@@ -27,7 +27,7 @@
 
 Данное вeб-приложение является сайтом-портфолио и мини-кинопоиском, открывающимся после регистрации.
 
-![](./src/assets/images/movies.png)
+![](./assets/images/movies.png)
 
 \> [Ссылка на GitHub](https://github.com/teplostanski/movies-explorer-frontend)
 
@@ -38,7 +38,7 @@
 
 "Mesto" — это сайт, где люди обмениваются фотографиями. "Местом" может быть что угодно: город, область или какое-то заведение.
 
-![](./src/assets/images/mesto.png)
+![](./assets/images/mesto.png)
 
 \> [Ссылка на GitHub](https://github.com/teplostanski/react-mesto-auth) 
 
@@ -51,7 +51,7 @@
 
 Адаптивная веб-страница "Путешествия по России", описывающая необыкновенные места России.
 
-![](./src/assets/images/travel.png)
+![](./assets/images/travel.png)
 
 \> [Ссылка на GitHub](https://github.com/teplostanski/travel) 
 
@@ -62,7 +62,7 @@
 
 Это одноcтраничный сайт о современных и эффективных подходов к обучению.
 
-![](./src/assets/images/how-to-learn.png)
+![](./assets/images/how-to-learn.png)
 
 \> [Ссылка на GitHub](https://github.com/teplostanski/how-to-learn) 
 
@@ -76,7 +76,7 @@
 
 Пет-проект. Онлайн редактор markdown-заметок
 
-![](./src/assets/images/aned.png)
+![](./assets/images/aned.png)
 
 \> [Ссылка на GitHub](https://github.com/teplostanski/aned) 
 
@@ -89,7 +89,7 @@
 
 Данное вeб-приложение является сайтом-портфолио и мини-кинопоиском, открывающимся после регистрации.
 
-![](./src/assets/images/portfolio.png)
+![](./assets/images/portfolio.png)
 
 \> [Ссылка на GitHub](https://github.com/teplostanski/portfolio) 
 
