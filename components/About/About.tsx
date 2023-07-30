@@ -18,6 +18,12 @@ const About = () => {
             утилиты. Готов просидеть не одни сутки, изучая задачу, пока не решу
             ее.
           </p>
+
+          {/*<div className={cn(styles.section, styles.section1)}></div>
+      <div className={cn(styles.section, styles.section2)}></div>
+      <div className={cn(styles.section, styles.section3)}></div>
+
+      <div className={styles.cube}></div>*/}
         </div>
       </div>
     </section>

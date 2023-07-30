@@ -48,3 +48,48 @@
   right: -135px;
   transform: rotate(90deg);
 }
+
+@media screen and (max-width: 768px) {
+  .text {
+    width: 380px;
+    font-size: 18px;
+  }
+
+  .text__with__title {
+    width: 300px;
+    margin-right: 80px;
+  }
+
+  .title {
+    font-size: 50px;
+    top: 48px;
+    right: -130px;
+  }
+}
+
+.cube {
+  position: fixed;
+  height: 50px;
+  width: 50px;
+  left: calc(50vw - 25px);
+  bottom: 50px;
+  background-color: rgb(255, 255, 255);
+  mix-blend-mode: difference;
+}
+
+.section {
+  height: 300px;
+  width: 600px;
+}
+
+.section1 {
+  background-color: #000000;
+}
+
+.section2 {
+  background-color: #ffffff;
+}
+
+.section3 {
+  background-color: #aaffaa;
+}
