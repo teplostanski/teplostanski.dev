@@ -20,6 +20,19 @@
 
 # [Проекты с длительной поддержкой находятся в категории "Пет-проекты"](#пет-проекты)
 
+## Шифровальная машина
+> Стэк: React MobX SCSS
+
+Шифровальная машина - это онлайн сервис шифрования текстовых сообщений. Разработан выпускниками Яндекс.Практикума
+
+![](https://github.com/encryption-machine/Front/raw/master/src/assets/images/screenshot.png)
+
+\> [Ссылка на GitHub](https://github.com/encryption-machine/Front) 
+
+\> [Ссылка на сайт](http://shifmachine.acceleratorpracticum.ru)
+
+<br>
+
 ## TechnoCats Team blog
 > Стэк: React Astro.js(SSR) CSS HTML FireBase
 
