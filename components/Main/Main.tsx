@@ -14,15 +14,10 @@ const Main = () => {
         className={cn(styles.container__item, styles.container__description)}
       >
         <div className={styles.description}>
-          <div className={styles.description__background}>Dev</div>
-          <div className={styles.description__wrapper}>
-            <span className={styles.description__subtitle}>Привет!</span>
-            <span className={styles.description__subtitle}>
-              Я Игорь Теплостанский
-            </span>
-            <span className={styles.description__title}>
-              Frontend разработчик
-            </span>
+          <div className={styles.wrapper}>
+            <span className={cn(styles.rotate)}>Привет</span>
+            <span className={cn(styles.subtitle)}>Я Игорь Теплостанский</span>
+            <span className={cn(styles.title)}>Frontend разработчик</span>
           </div>
         </div>
       </div>

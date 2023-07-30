@@ -1,49 +1,59 @@
 @font-face {
-  font-family: 'NeutralFace';
+  font-family: 'Asket Narrow';
+  src: url('../assets/fonts/AsketNarrow-Light.eot');
   src:
-    url('../assets/fonts/NeutralFace.woff') format('woff'),
-    url('../assets/fonts/NeutralFace.woff2') format('woff2');
-  text-transform: uppercase;
-  font-weight: 900;
+    local('Asket Narrow Light'),
+    local('AsketNarrow-Light'),
+    url('../assets/fonts/AsketNarrow-Light.eot?#iefix')
+      format('embedded-opentype'),
+    url('../assets/fonts/AsketNarrow-Light.woff2') format('woff2'),
+    url('../assets/fonts/AsketNarrow-Light.woff') format('woff'),
+    url('../assets/fonts/AsketNarrow-Light.ttf') format('truetype');
+  font-weight: 300;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'NeutralFace-Bold';
+  font-family: 'Asket Condensed';
+  src: url('../assets/fonts/AsketCondensed-ExtraBold.eot');
   src:
-    url('../assets/fonts/NeutralFace-Bold.woff') format('woff'),
-    url('../assets/fonts/NeutralFace-Bold.woff2') format('woff2');
-  text-transform: uppercase;
-  font-weight: normal;
+    local('Asket Condensed ExtraBold'),
+    local('AsketCondensed-ExtraBold'),
+    url('../assets/fonts/AsketCondensed-ExtraBold.eot?#iefix')
+      format('embedded-opentype'),
+    url('../assets/fonts/AsketCondensed-ExtraBold.woff2') format('woff2'),
+    url('../assets/fonts/AsketCondensed-ExtraBold.woff') format('woff'),
+    url('../assets/fonts/AsketCondensed-ExtraBold.ttf') format('truetype');
+  font-weight: 800;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'ttr';
+  font-family: 'Asket';
+  src: url('../assets/fonts/Asket-ExtraBold.eot');
   src:
-    url('../assets/fonts/TT\ Runs\ Trial\ Regular.woff') format('woff'),
-    url('../assets/fonts/TT\ Runs\ Trial\ Regular.woff2') format('woff2');
-  text-transform: uppercase;
-  font-weight: normal;
+    local('Asket ExtraBold'),
+    local('Asket-ExtraBold'),
+    url('../assets/fonts/Asket-ExtraBold.eot?#iefix')
+      format('embedded-opentype'),
+    url('../assets/fonts/Asket-ExtraBold.woff2') format('woff2'),
+    url('../assets/fonts/Asket-ExtraBold.woff') format('woff'),
+    url('../assets/fonts/Asket-ExtraBold.ttf') format('truetype');
+  font-weight: 800;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'ttb';
+  font-family: 'Asket Extended';
+  src: url('../assets/fonts/AsketExtended-Light.eot');
   src:
-    url('../assets/fonts/TT\ Runs\ Trial\ Black.woff') format('woff'),
-    url('../assets/fonts/TT\ Runs\ Trial\ Black.woff2') format('woff2');
-  text-transform: uppercase;
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'tto';
-  src:
-    url('../assets/fonts/TT\ Runs\ Black\ Outline\ Trial.woff') format('woff'),
-    url('../assets/fonts/TT\ Runs\ Black\ Outline\ Trial.woff2') format('woff2');
-  text-transform: uppercase;
-  font-weight: normal;
+    local('Asket Extended Light'),
+    local('AsketExtended-Light'),
+    url('../assets/fonts/AsketExtended-Light.eot?#iefix')
+      format('embedded-opentype'),
+    url('../assets/fonts/AsketExtended-Light.woff2') format('woff2'),
+    url('../assets/fonts/AsketExtended-Light.woff') format('woff'),
+    url('../assets/fonts/AsketExtended-Light.ttf') format('truetype');
+  font-weight: 300;
   font-style: normal;
 }

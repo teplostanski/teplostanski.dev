@@ -10,3 +10,9 @@
   background-color: var(--bg);
   z-index: 10;
 }
+
+@media screen and (max-width: 768px) {
+  .container {
+    border: none;
+  }
+}

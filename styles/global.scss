@@ -21,7 +21,7 @@ body {
 }
 
 body {
-  font-family: 'ttr';
+  font-family: 'Asket Narrow';
   font-size: 16px;
   scrollbar-width: none;
 }
@@ -43,7 +43,12 @@ body::-ms-scrollbar {
   width: var(--width);
   height: var(--height);
   background: #fff;
-
   border: solid var(--border-color);
   border-width: var(--border-width);
+}
+
+@media screen and (max-width: 768px) {
+  :root {
+    --header-width: 0px;
+  }
 }

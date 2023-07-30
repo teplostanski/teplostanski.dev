@@ -16,19 +16,64 @@
     }
   }
   &__description {
-    //background: rgb(255, 247, 136);
+    background: rgb(255, 247, 136);
     height: 100%;
   }
 }
 
+.description {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.wrapper {
+  position: absolute;
+  display: flex;
+  left: calc(5vw - 10px);
+  bottom: calc(5vw - 10px);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  font-size: 42px;
+  z-index: 1;
+  width: min-content;
+  font-family: 'Asket';
+  text-transform: uppercase;
+  line-height: normal;
+  margin-left: 20px;
+}
+
+.subtitle {
+  font-size: 20px;
+  font-family: 'Asket Extended';
+  text-transform: uppercase;
+  z-index: 1;
+}
+
+.rotate {
+  font-family: 'Asket Extended';
+  transform: rotate(-90deg);
+  width: fit-content;
+  position: absolute;
+  bottom: 40px;
+  font-size: 16px;
+  left: -31px;
+  text-transform: uppercase;
+}
+
 .image {
-  //min-width: fit-content;
-  //min-height: fit-content;
   width: 25vw;
   max-width: 350px;
   min-width: 200px;
   height: auto;
-  //background-color: yellow;
+  background: rgb(255, 247, 136);
   border: 1px solid black;
 }
 
@@ -36,4 +81,43 @@
   width: 1px;
   background: #000;
   height: 100%;
+}
+
+@media screen and (max-width: 1024px) {
+  .title {
+    font-size: 38px;
+    margin-left: 16px;
+  }
+
+  .subtitle {
+    font-size: 18px;
+  }
+
+  .rotate {
+    font-size: 14px;
+    bottom: 35px;
+    left: -26px;
+  }
+
+  .wrapper {
+    left: calc(4vw - 10px);
+    bottom: calc(5vw - 10px);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    border: none;
+  }
+
+  .separator {
+    width: 100%;
+    height: 2px;
+  }
+
+  .wrapper {
+    left: calc(8vw - 10px);
+    bottom: calc(6vw - 10px);
+  }
 }
