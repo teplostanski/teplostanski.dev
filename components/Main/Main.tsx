@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import cn from 'classnames'
-import ava from '../../assets/images/ava-transformed.png'
+import ava from '../../assets/images/ava.png'
 import styles from './Main.module.scss'
 
 const Main = () => {

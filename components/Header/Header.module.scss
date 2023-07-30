@@ -9,13 +9,16 @@
   transform: translate(0px, 0px);
   background-color: var(--bg);
   z-index: 10;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .logo {
   font-family: 'Asket';
   font-size: 20px;
   text-transform: uppercase;
-  margin: 15px;
+  margin-left: 15px;
   width: fit-content;
   display: flex;
   flex-direction: column;
@@ -23,6 +26,34 @@
 
 .text {
   margin-left: 28px;
+}
+
+.nav {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  &__list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    border: solid var(--border-color);
+    border-width: 0 0 0 1px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+  }
+  &__item {
+    margin: 0 25px;
+    text-transform: uppercase;
+    cursor: pointer;
+    & > a {
+      text-decoration: none;
+      color: black;
+    }
+    &:hover {
+      text-decoration: underline;
+    }
+  }
 }
 
 @media screen and (max-width: 768px) {
