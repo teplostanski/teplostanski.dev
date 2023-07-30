@@ -56,6 +56,20 @@
   }
 }
 
+.wrapper {
+  font-family: 'Asket';
+  font-size: 20px;
+  text-transform: uppercase;
+  margin: 15px;
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+}
+
+.text {
+  margin-left: 28px;
+}
+
 @media screen and (max-width: 768px) {
   .container {
     border: none;
