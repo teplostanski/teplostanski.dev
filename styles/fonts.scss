@@ -1,6 +1,7 @@
 @font-face {
   font-family: 'NeutralFace';
-  src: url('../assets/fonts/NeutralFace.woff') format('woff'),
+  src:
+    url('../assets/fonts/NeutralFace.woff') format('woff'),
     url('../assets/fonts/NeutralFace.woff2') format('woff2');
   text-transform: uppercase;
   font-weight: 900;
@@ -9,7 +10,8 @@
 
 @font-face {
   font-family: 'NeutralFace-Bold';
-  src: url('../assets/fonts/NeutralFace-Bold.woff') format('woff'),
+  src:
+    url('../assets/fonts/NeutralFace-Bold.woff') format('woff'),
     url('../assets/fonts/NeutralFace-Bold.woff2') format('woff2');
   text-transform: uppercase;
   font-weight: normal;
@@ -18,7 +20,8 @@
 
 @font-face {
   font-family: 'ttr';
-  src: url('../assets/fonts/TT\ Runs\ Trial\ Regular.woff') format('woff'),
+  src:
+    url('../assets/fonts/TT\ Runs\ Trial\ Regular.woff') format('woff'),
     url('../assets/fonts/TT\ Runs\ Trial\ Regular.woff2') format('woff2');
   text-transform: uppercase;
   font-weight: normal;
@@ -27,10 +30,9 @@
 
 @font-face {
   font-family: 'ttb';
-  src: url('../assets/fonts/TT\ Runs\ Trial\ Black.woff')
-      format('woff'),
-    url('../assets/fonts/TT\ Runs\ Trial\ Black.woff2')
-      format('woff2');
+  src:
+    url('../assets/fonts/TT\ Runs\ Trial\ Black.woff') format('woff'),
+    url('../assets/fonts/TT\ Runs\ Trial\ Black.woff2') format('woff2');
   text-transform: uppercase;
   font-weight: normal;
   font-style: normal;
@@ -38,10 +40,9 @@
 
 @font-face {
   font-family: 'tto';
-  src: url('../assets/fonts/TT\ Runs\ Black\ Outline\ Trial.woff')
-      format('woff'),
-    url('../assets/fonts/TT\ Runs\ Black\ Outline\ Trial.woff2')
-      format('woff2');
+  src:
+    url('../assets/fonts/TT\ Runs\ Black\ Outline\ Trial.woff') format('woff'),
+    url('../assets/fonts/TT\ Runs\ Black\ Outline\ Trial.woff2') format('woff2');
   text-transform: uppercase;
   font-weight: normal;
   font-style: normal;

@@ -7,7 +7,7 @@ const Main = () => {
   return (
     <section className={styles.container}>
       <div className={cn(styles.container__item, styles.container__item_image)}>
-          <Image className={styles.image} src={ava} alt="me" />
+        <Image className={styles.image} src={ava} alt="me" />
       </div>
       <div className={styles.separator}></div>
       <div

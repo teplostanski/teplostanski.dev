@@ -17,12 +17,14 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
+    "format": "prettier . --write",
     "deploy": "npm run build && cp ./CNAME ./build && gh-pages -d build"
   },
   "devDependencies": {
     "classnames": "^2.3.2",
     "gh-pages": "^4.0.0",
-    "prettier": "latest",
+    "husky": "^8.0.3",
+    "prettier": "^3.0.0",
     "sass": "^1.63.6"
   },
   "homepage": "https://teplostanski.dev/"

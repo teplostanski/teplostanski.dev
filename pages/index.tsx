@@ -17,10 +17,10 @@ const Index = () => {
         <meta name="description" content={PageIndexDesc} />
       </Head>
       <Main />
-      <About />
-      <Skills />
-      <Links />
-      <Footer />
+      {/*<About />*/}
+      {/*<Skills />*/}
+      {/*<Links />*/}
+      {/*<Footer />*/}
     </MainLayout>
   )
 }

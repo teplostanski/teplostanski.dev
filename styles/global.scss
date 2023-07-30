@@ -39,11 +39,11 @@ body::-ms-scrollbar {
   background-color: transparent;
 }
 
-.container{
+.container {
   width: var(--width);
   height: var(--height);
   background: #fff;
-  
+
   border: solid var(--border-color);
   border-width: var(--border-width);
 }
