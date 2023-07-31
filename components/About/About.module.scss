@@ -24,6 +24,7 @@
   align-items: flex-end;
   gap: 5px;
   color: white;
+  word-break: break-all;
 }
 
 .text {
@@ -51,19 +52,25 @@
 
 @media screen and (max-width: 768px) {
   .text {
-    width: 380px;
-    font-size: 18px;
+    width: 282px;
+
+    font-size: 14px;
   }
 
   .text__with__title {
-    width: 300px;
-    margin-right: 80px;
+    width: 237px;
+    margin-right: 45px;
   }
 
   .title {
-    font-size: 50px;
-    top: 48px;
-    right: -130px;
+    font-size: 36px;
+    top: 34px;
+    right: -84px;
+  }
+
+  .wrapper {
+    right: calc(8vw - 10px);
+    top: calc(8vw - 10px);
   }
 }
 
