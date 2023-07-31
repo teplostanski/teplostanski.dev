@@ -1,10 +1,8 @@
 @import '../../styles/globalComponentStyles.module.scss';
 
 .container {
-  //height: 50vh;
   height: fit-content;
   width: auto;
-
   background: var(--fg);
   z-index: 3;
 }
@@ -40,7 +38,6 @@
     display: inline-block;
     margin-left: 7px;
     filter: invert(1);
-    //color: aqua;
   }
   &:hover {
     color: gray;
