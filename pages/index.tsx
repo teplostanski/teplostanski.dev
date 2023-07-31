@@ -37,8 +37,8 @@ const Index = () => {
       <Main />
       <About />
       {/*<Skills />*/}
-      {/*<Links />*/}
-      {/*<Footer />*/}
+      <Links />
+      <Footer />
     </MainLayout>
   )
 }
