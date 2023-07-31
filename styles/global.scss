@@ -52,3 +52,9 @@ body::-ms-scrollbar {
     --header-width: 0px;
   }
 }
+
+@media screen and (max-height: 425px) and (max-width: 844px) {
+  :root {
+    --header-width: 0px;
+  }
+}

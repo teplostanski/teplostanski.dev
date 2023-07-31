@@ -80,3 +80,14 @@
     display: none;
   }
 }
+
+@media screen and (max-height: 425px) and (max-width: 844px) {
+  .container {
+    border: none;
+    display: none;
+  }
+
+  .logo {
+    display: none;
+  }
+}
