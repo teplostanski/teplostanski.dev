@@ -4,24 +4,25 @@
   //height: 50vh;
   height: fit-content;
   width: auto;
-  padding: 50px;
+
   background: var(--fg);
   z-index: 3;
 }
 
 .links__wrapper {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: auto;
-  width: max-content;
-  gap: 25px 65px;
-  margin: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  width: fit-content;
+  gap: 10px;
+  margin: 0 35px;
+  padding: 60px 0;
 }
 
 .links {
   text-decoration: none;
   width: fit-content;
   cursor: pointer;
+  text-transform: uppercase;
 }
 
 .links__container {
