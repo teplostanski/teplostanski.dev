@@ -43,3 +43,13 @@
     color: gray;
   }
 }
+
+@media screen and (max-width: 425px) {
+  .links__body {
+    font-size: 14px;
+    &_arrow {
+      width: 10px;
+      height: 10px;
+    }
+  }
+}
