@@ -2,22 +2,41 @@
 
 .container {
   z-index: 2;
-  //background: #df81ac;
+  background: #df81ac;
+  height: auto;
 }
 
-.skills__wrapper {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: auto;
-  width: max-content;
-  gap: 25px;
-  margin: 50px;
-}
-
-.skills__container {
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
   width: fit-content;
-  border: 1px solid black;
-  background: var(--bg);
+  gap: 10px;
+  margin: 0 35px;
+  padding: 60px 0;
+}
+
+.skills {
+  width: fit-content;
+  background: transparent;
+  border: 1px solid;
+  color: white;
   z-index: 3;
   padding: 8px;
+  display: flex;
+  align-items: flex-end;
+}
+
+.text {
+  text-transform: uppercase;
+  margin-left: 5px;
+}
+
+.image {
+  width: 20px;
+  height: 20px;
+}
+
+.picture {
+  width: fit-content;
+  height: 20px;
 }

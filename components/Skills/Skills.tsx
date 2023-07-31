@@ -1,164 +1,28 @@
+import data from '../../data.json'
 import styles from './Skills.module.scss'
 
 const Skills = () => {
+  const skills = data.skills
   return (
     <section className={styles.container}>
       <div className={styles.description}>
-        <div className={styles.description__background}>Skills</div>
-        <div className={styles.skills__wrapper}>
-          <div className={styles.skills__container}>
-            <span className={styles.skills__body}>
-              <picture>
+        <div className={styles.wrapper}>
+          {skills.map((item, index) => (
+            <div key={index} className={styles.skills}>
+              <picture className={styles.picture}>
                 <source
-                  srcSet="https://cdn.simpleicons.org/react/black"
+                  srcSet={`https://cdn.simpleicons.org/${item}/white`}
                   type="image/svg"
                 />
                 <img
-                  src="https://cdn.simpleicons.org/react/black"
+                  className={styles.image}
+                  src={`https://cdn.simpleicons.org/${item}/white`}
                   alt="Landscape picture"
-                  width={20}
-                  height={20}
                 />
               </picture>
-              skill
-            </span>
-          </div>
-          <div className={styles.skills__container}>
-            <span className={styles.skills__body}>
-              <picture>
-                <source
-                  srcSet="https://cdn.simpleicons.org/react/black"
-                  type="image/svg"
-                />
-                <img
-                  src="https://cdn.simpleicons.org/react/black"
-                  alt="Landscape picture"
-                  width={20}
-                  height={20}
-                />
-              </picture>
-              skill
-            </span>
-          </div>
-          <div className={styles.skills__container}>
-            <span className={styles.skills__body}>
-              <picture>
-                <source
-                  srcSet="https://cdn.simpleicons.org/react/black"
-                  type="image/svg"
-                />
-                <img
-                  src="https://cdn.simpleicons.org/react/black"
-                  alt="Landscape picture"
-                  width={20}
-                  height={20}
-                />
-              </picture>
-              skill
-            </span>
-          </div>
-          <div className={styles.skills__container}>
-            <span className={styles.skills__body}>
-              <picture>
-                <source
-                  srcSet="https://cdn.simpleicons.org/react/black"
-                  type="image/svg"
-                />
-                <img
-                  src="https://cdn.simpleicons.org/react/black"
-                  alt="Landscape picture"
-                  width={20}
-                  height={20}
-                />
-              </picture>
-              skill
-            </span>
-          </div>
-          <div className={styles.skills__container}>
-            <span className={styles.skills__body}>
-              <picture>
-                <source
-                  srcSet="https://cdn.simpleicons.org/react/black"
-                  type="image/svg"
-                />
-                <img
-                  src="https://cdn.simpleicons.org/react/black"
-                  alt="Landscape picture"
-                  width={20}
-                  height={20}
-                />
-              </picture>
-              skill
-            </span>
-          </div>
-          <div className={styles.skills__container}>
-            <span className={styles.skills__body}>
-              <picture>
-                <source
-                  srcSet="https://cdn.simpleicons.org/react/black"
-                  type="image/svg"
-                />
-                <img
-                  src="https://cdn.simpleicons.org/react/black"
-                  alt="Landscape picture"
-                  width={20}
-                  height={20}
-                />
-              </picture>
-              skill
-            </span>
-          </div>
-          <div className={styles.skills__container}>
-            <span className={styles.skills__body}>
-              <picture>
-                <source
-                  srcSet="https://cdn.simpleicons.org/react/black"
-                  type="image/svg"
-                />
-                <img
-                  src="https://cdn.simpleicons.org/react/black"
-                  alt="Landscape picture"
-                  width={20}
-                  height={20}
-                />
-              </picture>
-              skill
-            </span>
-          </div>
-          <div className={styles.skills__container}>
-            <span className={styles.skills__body}>
-              <picture>
-                <source
-                  srcSet="https://cdn.simpleicons.org/react/black"
-                  type="image/svg"
-                />
-                <img
-                  src="https://cdn.simpleicons.org/react/black"
-                  alt="Landscape picture"
-                  width={20}
-                  height={20}
-                />
-              </picture>
-              skill
-            </span>
-          </div>
-          <div className={styles.skills__container}>
-            <span className={styles.skills__body}>
-              <picture>
-                <source
-                  srcSet="https://cdn.simpleicons.org/react/black"
-                  type="image/svg"
-                />
-                <img
-                  src="https://cdn.simpleicons.org/react/black"
-                  alt="Landscape picture"
-                  width={20}
-                  height={20}
-                />
-              </picture>
-              skill
-            </span>
-          </div>
+              <span className={styles.text}>{item}</span>
+            </div>
+          ))}
         </div>
       </div>
     </section>

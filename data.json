@@ -87,19 +87,20 @@
       }
     ]
   },
-  "skills": {
-    "langs": ["typescript", "javascript"],
-    "frontend": {
-      "frameworks": ["react", "astro", "next.js"],
-      "stateManagers": ["mobx"],
-      "markupLangs": ["sass", "css3", "html5"]
-    },
-    "backand": {
-      "runtime": ["node.js"],
-      "frameworks": ["express", "commander.js"],
-      "db": ["mongodb"]
-    }
-  },
+  "skills": [
+    "typescript",
+    "javascript",
+    "react",
+    "next.js",
+    "astro",
+    "mobx",
+    "sass",
+    "css3",
+    "html5",
+    "node.js",
+    "express",
+    "mongodb"
+  ],
   "experience": {
     "edu": [
       {
