@@ -88,18 +88,20 @@
     ]
   },
   "skills": [
-    "typescript",
-    "javascript",
-    "react",
-    "next.js",
-    "astro",
-    "mobx",
-    "sass",
-    "css3",
-    "html5",
-    "node.js",
-    "express",
-    "mongodb"
+    {
+      "langs": ["typescript", "javascript"],
+      "frontend": [
+        "react",
+        "astro",
+        "next.js",
+        "mobx",
+        "sass",
+        "css3",
+        "html5"
+      ],
+      "backand": ["node.js", "express"],
+      "db": ["mongodb"]
+    }
   ],
   "experience": {
     "edu": [

@@ -8,27 +8,47 @@
 
 .wrapper {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: flex-start;
   width: fit-content;
-  gap: 10px;
+  gap: 24px;
   margin: 0 35px;
   padding: 60px 0;
 }
 
 .skills {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 18px;
+}
+
+.techs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+
+.item {
   width: fit-content;
   background: transparent;
   border: 1px solid;
   color: white;
-  z-index: 3;
   padding: 8px;
   display: flex;
   align-items: flex-end;
 }
 
+.title {
+  text-transform: uppercase;
+  color: white;
+  margin: 0;
+}
+
 .text {
   text-transform: uppercase;
   margin-left: 5px;
+  line-height: 1rem;
 }
 
 .image {
@@ -39,4 +59,24 @@
 .picture {
   width: fit-content;
   height: 20px;
+}
+
+@media screen and (max-width: 425px) {
+  .title {
+    font-size: 16px;
+  }
+
+  .text {
+    font-size: 14px;
+  }
+
+  .image {
+    width: 16px;
+    height: 16px;
+  }
+
+  .item {
+    align-items: center;
+    padding: 8px 8px 3px 8px;
+  }
 }
