@@ -1,11 +1,12 @@
 import MainLayout from './MainLayout'
 import { ProjectsLayoutProps } from '../utils/types'
+import Footer from '../components/Footer/Footer'
 
 const ProjectsLayout = ({ children }: ProjectsLayoutProps) => {
   return (
     <MainLayout>
-      <div>dada</div>
       <section>{children}</section>
+      <Footer />
     </MainLayout>
   )
 }

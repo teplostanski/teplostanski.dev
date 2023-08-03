@@ -2,86 +2,86 @@
   "projects": {
     "jobs": [
       {
-        "id": null,
+        "name": "Шифровальная машина",
+        "stack": ["React", "MobX", "SCSS"],
+        "partake": "Совместный",
+        "desc": "Шифровальная машина - это онлайн сервис шифрования текстовых сообщений. Разработан выпускниками Яндекс.Практикума",
+        "preview": "https://github.com/encryption-machine/Front/raw/master/src/assets/images/screenshot.png",
+        "website": "http://shifmachine.acceleratorpracticum.ru/",
+        "source": "https://github.com/encryption-machine/Front"
+      },
+      {
+        "name": "TechnoCats Team blog",
+        "stack": [
+          "React",
+          "Astro.js",
+          "SSR",
+          "CSS",
+          "HTML",
+          "FireBase",
+          "CSS",
+          "HTML",
+          "FireBase"
+        ],
+        "partake": "Совместный",
+        "desc": "Командная работа из 6 человек над созданием сайта блога написанного на Astro",
+        "preview": "https://raw.githubusercontent.com/teplostanski/technocats-team-blog/main/src/assets/screenshot.png",
+        "website": "https://technocats-team.teplostanski.dev/",
+        "source": "https://github.com/teplostanski/technocats-team-blog"
+      },
+      {
         "name": "Movies Explorer",
-        "stack": "HTML CSS BEM Adaptive React.js",
+        "stack": ["HTML", "CSS", "BEM", "Adaptive", "React"],
         "partake": "Соло",
         "desc": "Данное вeб-приложение является сайтом-портфолио и мини-кинопоиском, открывающимся после регистрации.",
-        "preview": null,
+        "preview": "https://raw.githubusercontent.com/teplostanski/movies-explorer-frontend/main/screen.png",
         "website": "",
         "source": "https://github.com/teplostanski/movies-explorer-frontend"
       },
       {
-        "id": null,
         "name": "Место",
-        "stack": "HTML CSS BEM Adaptive React.js",
+        "stack": ["HTML", "CSS", "BEM", "Adaptive", "React"],
         "partake": "Соло",
         "desc": "\"Mesto\" — это сайт, где люди обмениваются фотографиями. Местом может быть что угодно: город, область или какое-то заведение.",
-        "preview": null,
+        "preview": "https://raw.githubusercontent.com/teplostanski/react-mesto-auth/main/screen.png",
         "website": "https://teplostanski.github.io/react-mesto-auth/",
         "source": "https://github.com/teplostanski/react-mesto-auth"
       },
       {
-        "id": null,
         "name": "Путешествие по России",
-        "stack": "HTML CSS BEM Adaptive",
+        "stack": ["HTML", "CSS", "BEM", "Adaptive"],
         "partake": "Соло",
         "desc": "Адаптивная веб-страница Путешествия по России, описывающая необыкновенные места России.",
-        "preview": null,
+        "preview": "https://raw.githubusercontent.com/teplostanski/travel/master/screen.png",
         "website": "https://teplostanski.github.io/travel/",
         "source": "https://github.com/teplostanski/travel"
       },
       {
-        "id": null,
         "name": "Научиться учиться",
-        "stack": "HTML CSS BEM",
+        "stack": ["HTML", "CSS", "BEM"],
         "partake": "Соло",
         "desc": "Это одноcтраничный сайт о современных и эффективных подходов к обучению.",
-        "preview": null,
+        "preview": "https://raw.githubusercontent.com/teplostanski/how-to-learn/main/screen.png",
         "website": "https://teplostanski.github.io/how-to-learn/index.html",
         "source": "https://github.com/how-to-learn"
       }
     ],
     "pets": [
       {
-        "id": null,
         "name": "aned",
-        "stack": "HTML CSS TypeScript React.js",
+        "stack": ["HTML", "CSS", "TypeScript", "React"],
         "partake": "Соло",
         "desc": "Пет-проект. Онлайн редактор markdown-заметок",
-        "preview": "aned",
+        "preview": "https://github.com/teplostanski/portfolio/raw/main/assets/images/aned.png",
         "website": "https://aned.teplostanski.dev/",
         "source": "https://github.com/teplostanski/aned"
       },
       {
-        "id": null,
         "name": "Портфолио",
-        "stack": ["HTML", "CSS", "BEM", "React.js"],
+        "stack": ["HTML", "CSS", "BEM", "React"],
         "partake": "Соло",
         "desc": "Сайт-портфолио",
-        "preview": "portfolio",
-        "website": "https://teplostanski.dev/",
-        "source": "https://github.com/teplostanski/portfolio"
-      }
-    ],
-    "npm": [
-      {
-        "id": null,
-        "name": "aned",
-        "stack": "HTML CSS TypeScript React.js",
-        "partake": "Соло",
-        "desc": "Пет-проект. Онлайн редактор markdown-заметок",
-        "preview": "aned",
-        "website": "https://aned.teplostanski.dev/",
-        "source": "https://github.com/teplostanski/aned"
-      },
-      {
-        "id": null,
-        "name": "Портфолио",
-        "stack": ["HTML", "CSS", "BEM", "React.js"],
-        "partake": "Соло",
-        "desc": "Сайт-портфолио",
-        "preview": "portfolio",
+        "preview": "https://github.com/teplostanski/portfolio/raw/main/assets/images/portfolio.png",
         "website": "https://teplostanski.dev/",
         "source": "https://github.com/teplostanski/portfolio"
       }
@@ -89,7 +89,7 @@
   },
   "skills": [
     {
-      "langs": ["typescript", "javascript"],
+      "langs": ["typescript", "javascript", "gnubash"],
       "frontend": [
         "react",
         "astro",

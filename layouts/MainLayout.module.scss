@@ -18,9 +18,18 @@
 //  width: 12px;
 //  background-color: black;
 //}
+@import '../styles/globalComponentStyles.module.scss';
+
 .container {
+  margin-top: var(--header-width);
   background: var(--bg);
   overflow-x: hidden;
   overflow-y: scroll;
-  height: 100vh;
+  //height: calc(100% - 145px);
 }
+
+//@media screen and (max-width: 768px) {
+//  .container {
+//    //height: calc(100vh - 95px);
+//  }
+//}

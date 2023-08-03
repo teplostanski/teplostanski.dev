@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import { nanoid } from 'nanoid'
 import styles from './Header.module.scss'
 
@@ -5,21 +6,21 @@ const Header = () => {
   const navItems = [
     {
       name: 'проекты',
-      path: 'https://github.com/teplostanski/portfolio#readme',
+      path: '/projects',
     },
   ]
 
   return (
     <header className={styles.container}>
-      <div className={styles.logo}>
+      <Link className={styles.logo} href={'/'}>
         <span>portfolio</span>
         <span className={styles.text}>version 2</span>
-      </div>
+      </Link>
       <nav className={styles.nav}>
         {navItems.map(({ name, path }) => (
           <ul className={styles.nav__list} key={nanoid()}>
             <li className={styles.nav__item}>
-              <a href={path}>{name}</a>
+              <Link href={path}>{name}</Link>
             </li>
           </ul>
         ))}
