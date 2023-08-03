@@ -5,6 +5,7 @@ import styles from './Skills.module.scss'
 
 const Skills = () => {
   const skills = data.skills
+  const experience = data.experience
 
   const setTitle = (title: string) => {
     if (title === 'langs') {
@@ -18,15 +19,20 @@ const Skills = () => {
     }
   }
 
+  console.log(
+    experience.edu.map(({ institution, faculty, year }) => ({ year }))
+  )
+
   return (
     <section className={styles.container}>
       <div className={styles.description}>
         <div className={styles.wrapper}>
+          <h2 className={styles.title}>Навыки</h2>
           {skills.map((item) =>
             Object.entries(item).map(([key, values]) => (
-              <div key={nanoid()} className={styles.skills}>
-                <h3 className={styles.title}>{setTitle(key)}</h3>
-                <div className={styles.techs}>
+              <div key={nanoid()} className={styles.block}>
+                <h3 className={styles.subtitle}>{setTitle(key)}</h3>
+                <div className={styles.items_skills}>
                   {values.map((value) => (
                     <div key={nanoid()} className={styles.item}>
                       <picture className={styles.picture}>
@@ -40,13 +46,42 @@ const Skills = () => {
                           alt="Landscape picture"
                         />
                       </picture>
-                      <span className={styles.text}>{value}</span>
+                      <span className={styles.text_skills}>{value}</span>
                     </div>
                   ))}
                 </div>
               </div>
             ))
           )}
+
+          <h2 className={styles.title}>Опыт</h2>
+          <div className={styles.block}>
+            <h3 className={styles.subtitle}>Обучение</h3>
+            <div className={styles.items_experience}>
+              {experience.edu.map(({ institution, faculty, year }) => (
+                <div key={nanoid()}>
+                  <p className={styles.text_experience}>{institution}</p>
+
+                  <p className={styles.description}>
+                    {faculty} ({year})
+                  </p>
+                </div>
+              ))}
+            </div>
+          </div>
+
+          <div className={styles.block}>
+            <h3 className={styles.subtitle}>Стажировки</h3>
+            <div className={styles.items_experience}>
+              {experience.internships.map(({ company, year }) => (
+                <div key={nanoid()}>
+                  <p className={styles.text_experience}>
+                    {company} ({year})
+                  </p>
+                </div>
+              ))}
+            </div>
+          </div>
         </div>
       </div>
     </section>
@@ -54,7 +89,3 @@ const Skills = () => {
 }
 
 export default Skills
-
-//values.map((value) => (
-
-//))

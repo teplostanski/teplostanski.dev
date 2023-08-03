@@ -1,4 +1,20 @@
-@import '../../styles/globalComponentStyles.module.scss';
+%titles {
+  text-transform: uppercase;
+  color: white;
+  margin: 0;
+}
+
+%items {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+
+%text {
+  text-transform: uppercase;
+  line-height: 1rem;
+  color: white;
+}
 
 .container {
   z-index: 2;
@@ -16,17 +32,21 @@
   padding: 60px 0;
 }
 
-.skills {
+.block {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   gap: 18px;
 }
 
-.techs {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 5px;
+.items {
+  &_skills {
+    @extend %items;
+  }
+  &_experience {
+    @extend %items;
+    flex-direction: column;
+  }
 }
 
 .item {
@@ -40,15 +60,28 @@
 }
 
 .title {
-  text-transform: uppercase;
-  color: white;
-  margin: 0;
+  @extend %titles;
+  font-size: 24px;
+  font-family: 'Asket';
+}
+
+.subtitle {
+  @extend %titles;
+  font-size: 18px;
 }
 
 .text {
-  text-transform: uppercase;
-  margin-left: 5px;
-  line-height: 1rem;
+  &_skills {
+    @extend %text;
+    margin-left: 5px;
+  }
+  &_experience {
+    @extend %text;
+  }
+}
+
+.description {
+  color: white;
 }
 
 .image {
