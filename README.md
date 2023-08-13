@@ -20,6 +20,19 @@
 
 [Проекты с длительной поддержкой находятся в категории "Пет-проекты"](#пет-проекты)
 
+## enot
+> Стэк: TypeScript React.js CSS
+
+Пет-проект. Онлайн редактор markdown-заметок
+
+![](https://raw.githubusercontent.com/teplostanski/enot/main/assets/screen.png)
+
+\> [Ссылка на GitHub](https://github.com/teplostanski/enot) 
+
+\> [Ссылка на сайт](https://enot.teplostanski.dev/)
+
+<br>
+
 ## Шифровальная машина
 > Стэк: React MobX SCSS
 
@@ -95,16 +108,16 @@
 
 # Пет-проекты
 
-## aned
-> Стэк: HTML CSS TypeScript React.js
+## enot
+> Стэк: TypeScript React.js CSS
 
 Пет-проект. Онлайн редактор markdown-заметок
 
-![](./assets/images/aned.png)
+![](https://raw.githubusercontent.com/teplostanski/enot/main/assets/screen.png)
 
-\> [Ссылка на GitHub](https://github.com/teplostanski/aned) 
+\> [Ссылка на GitHub](https://github.com/teplostanski/enot) 
 
-\> [Ссылка на сайт](https://aned.teplostanski.dev/)
+\> [Ссылка на сайт](https://enot.teplostanski.dev/)
 
 <br>
 
