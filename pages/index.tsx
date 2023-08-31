@@ -15,6 +15,9 @@ const Index = () => {
         <title>{PageIndexTitle}</title>
         <meta name="keywords" content={keywords} />
         <meta name="description" content={PageIndexDesc} />
+        <meta name="copyright" content="create by Igor Teplostanski" />
+        <meta name="Author" lang="ru" content="Игорь Теплостанский" />
+        <meta name="Author" lang="en" content="Igor Teplostanski" />
         <link
           rel="apple-touch-icon"
           sizes="180x180"
