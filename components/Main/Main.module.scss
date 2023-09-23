@@ -76,7 +76,7 @@
     top: 70%;
     left: 14px;
     min-width: 10px;
-    max-width: 240px;
+    max-width: fit-content;
   }
   &::after {
     content: '';
@@ -91,6 +91,7 @@
   @media screen and (min-width: 675px) {
     & {
       font-size: 16px;
+      width: 270px;
     }
     &__first {
       right: 15vw;
@@ -146,7 +147,7 @@
       right: 5vw;
     }
     &__second {
-      top: 55%;
+      top: 57%;
     }
   }
 
