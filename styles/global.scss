@@ -1,10 +1,7 @@
 @import 'normalize.css/normalize';
 @import 'https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap';
 @import 'colors';
-
-$width: 100%;
-$border-width: 1px 0 0 0;
-$height: calc(100vh);
+@import 'vars';
 
 html {
   scroll-behavior: auto;

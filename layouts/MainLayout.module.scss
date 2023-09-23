@@ -1,35 +1,6 @@
-//.container {
-//  scroll-behavior: auto;
-//  scrollbar-width: auto;
-//  -webkit-overflow-scrolling: auto;
-//  overflow:auto;
-//  scrollbar-width: auto;
-//}
-
-//.container::-webkit-scrollbar {
-//  width: 12px;
-//  background-color: black;
-//}
-//.container::-moz-scrollbar {
-//  width: 12px;
-//  background-color: black;
-//}
-//.container::-ms-scrollbar {
-//  width: 12px;
-//  background-color: black;
-//}
-@import '../styles/globalComponentStyles.module.scss';
-
+@import '../styles/colors';
 .container {
-  margin-top: var(--header-width);
-  background: var(--bg);
+  background: $fg;
   overflow-x: hidden;
-  overflow-y: scroll;
-  //height: calc(100% - 145px);
+  overflow-y: auto;
 }
-
-//@media screen and (max-width: 768px) {
-//  .container {
-//    //height: calc(100vh - 95px);
-//  }
-//}

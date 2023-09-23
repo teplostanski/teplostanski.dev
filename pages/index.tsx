@@ -37,7 +37,7 @@ const Index = () => {
         />
         <link rel="manifest" href="/site.webmanifest" />
       </Head>
-      {/*<Main />*/}
+      <Main />
       {/*<About />*/}
       {/*<Skills />*/}
       {/*<Links />*/}

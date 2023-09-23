@@ -1,13 +1,10 @@
-@import '../../styles/colors.scss';
+@import '../../styles/colors';
 
 .container {
   width: calc(100% - 2px);
   height: fit-content;
   border: solid $border-color;
   border-width: 1px 0;
-  position: fixed;
-  top: 0;
-  left: 0;
   transform: translate(0px, 0px);
   z-index: 10;
   display: flex;
@@ -22,6 +19,11 @@
   color: $fg;
   &__text {
     margin-left: 15px;
+  }
+  @media screen and (max-width: 357px) {
+    &__dot {
+      display: none;
+    }
   }
 }
 
@@ -42,6 +44,7 @@
     padding: 20px 25px;
     border-radius: 50px;
     text-transform: uppercase;
+    margin: -1px;
     cursor: pointer;
     & > a {
       text-decoration: none;
