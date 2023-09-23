@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap');
+
 .container {
   width: calc(100% - 2px);
   height: var(--header-width);
@@ -15,9 +17,10 @@
 }
 
 .logo {
-  font-family: 'Asket';
-  font-size: 20px;
-  text-transform: uppercase;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  //text-transform: uppercase;
   margin-left: 15px;
   width: fit-content;
   display: flex;
@@ -72,24 +75,24 @@
   margin-left: 28px;
 }
 
-@media screen and (max-width: 768px) {
-  .container {
-    border: none;
-    display: none;
-  }
+//@media screen and (max-width: 768px) {
+//  .container {
+//    border: none;
+//    display: none;
+//  }
 
-  .logo {
-    display: none;
-  }
-}
+//  .logo {
+//    display: none;
+//  }
+//}
 
-@media screen and (max-height: 425px) and (max-width: 844px) {
-  .container {
-    border: none;
-    display: none;
-  }
+//@media screen and (max-height: 425px) and (max-width: 844px) {
+//  .container {
+//    border: none;
+//    display: none;
+//  }
 
-  .logo {
-    display: none;
-  }
-}
+//  .logo {
+//    display: none;
+//  }
+//}

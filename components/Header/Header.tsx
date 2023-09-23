@@ -13,8 +13,8 @@ const Header = () => {
   return (
     <header className={styles.container}>
       <Link className={styles.logo} href={'/'}>
-        <span>portfolio</span>
-        <span className={styles.text}>version 2</span>
+        <span>teplostanski</span>
+        <span className={styles.text}>.dev</span>
       </Link>
       <nav className={styles.nav}>
         {navItems.map(({ name, path }) => (
