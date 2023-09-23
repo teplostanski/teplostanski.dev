@@ -1,13 +1,10 @@
 @import 'normalize.css/normalize';
-@import './colors.scss';
-@import './fonts.scss';
+@import 'https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap';
+@import 'colors';
 
-:root {
-  --width: 100%;
-  --border-width: 1px 0 0 0;
-  --header-width: 75px;
-  --height: calc(100vh - var(--header-width));
-}
+$width: 100%;
+$border-width: 1px 0 0 0;
+$height: calc(100vh);
 
 html {
   scroll-behavior: auto;
@@ -21,7 +18,8 @@ body {
 }
 
 body {
-  font-family: 'Asket Narrow';
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
   font-size: 16px;
   scrollbar-width: none;
 }
@@ -40,21 +38,9 @@ body::-ms-scrollbar {
 }
 
 .container {
-  width: var(--width);
-  height: var(--height);
-  background: #fff;
-  border: solid var(--border-color);
-  border-width: var(--border-width);
-}
-
-@media screen and (max-width: 768px) {
-  :root {
-    --header-width: 0px;
-  }
-}
-
-@media screen and (max-height: 425px) and (max-width: 844px) {
-  :root {
-    --header-width: 0px;
-  }
+  width: $width;
+  height: $height;
+  background: blue;
+  //border: solid $border-color;
+  //border-width: $border-width;
 }

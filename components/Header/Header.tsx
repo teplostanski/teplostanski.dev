@@ -13,8 +13,8 @@ const Header = () => {
   return (
     <header className={styles.container}>
       <Link className={styles.logo} href={'/'}>
-        <span>teplostanski</span>
-        <span className={styles.text}>.dev</span>
+        <span className={styles.logo__text}>teplostanski</span>
+        <span className={styles.logo__dot}>.dev</span>
       </Link>
       <nav className={styles.nav}>
         {navItems.map(({ name, path }) => (
