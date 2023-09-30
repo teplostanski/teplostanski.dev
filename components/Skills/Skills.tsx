@@ -19,30 +19,26 @@ const Skills = () => {
     }
   }
 
-  console.log(
-    experience.edu.map(({ institution, faculty, year }) => ({ year }))
-  )
-
   return (
     <section className={styles.container}>
       <div className={styles.description}>
         <div className={styles.wrapper}>
           <h2 className={styles.title}>Навыки</h2>
-          {skills.map((item) =>
-            Object.entries(item).map(([key, values]) => (
+          {skills.map((item: any) =>
+            Object.entries(item).map(([key, values]: any) => (
               <div key={nanoid()} className={styles.block}>
                 <h3 className={styles.subtitle}>{setTitle(key)}</h3>
                 <div className={styles.items_skills}>
-                  {values.map((value) => (
+                  {values.map((value: any) => (
                     <div key={nanoid()} className={styles.item}>
                       <picture className={styles.picture}>
                         <source
-                          srcSet={`https://cdn.simpleicons.org/${value}/white`}
+                          srcSet={`https://cdn.simpleicons.org/${value}/black`}
                           type="image/svg"
                         />
                         <img
                           className={styles.image}
-                          src={`https://cdn.simpleicons.org/${value}/white`}
+                          src={`https://cdn.simpleicons.org/${value}/black`}
                           alt="Landscape picture"
                         />
                       </picture>
@@ -58,28 +54,40 @@ const Skills = () => {
           <div className={styles.block}>
             <h3 className={styles.subtitle}>Обучение</h3>
             <div className={styles.items_experience}>
-              {experience.edu.map(({ institution, faculty, year }) => (
-                <div key={nanoid()}>
-                  <p className={styles.text_experience}>{institution}</p>
+              {experience.edu.map(
+                ({
+                  institution,
+                  faculty,
+                  year,
+                }: {
+                  institution: any
+                  faculty: any
+                  year: any
+                }) => (
+                  <div key={nanoid()}>
+                    <p className={styles.text_experience}>{institution}</p>
 
-                  <p className={styles.description}>
-                    {faculty} ({year})
-                  </p>
-                </div>
-              ))}
+                    <p className={styles.description}>
+                      {faculty} ({year})
+                    </p>
+                  </div>
+                )
+              )}
             </div>
           </div>
 
           <div className={styles.block}>
             <h3 className={styles.subtitle}>Стажировки</h3>
             <div className={styles.items_experience}>
-              {experience.internships.map(({ company, year }) => (
-                <div key={nanoid()}>
-                  <p className={styles.text_experience}>
-                    {company} ({year})
-                  </p>
-                </div>
-              ))}
+              {experience.internships.map(
+                ({ company, year }: { company: any; year: any }) => (
+                  <div key={nanoid()}>
+                    <p className={styles.text_experience}>
+                      {company} ({year})
+                    </p>
+                  </div>
+                )
+              )}
             </div>
           </div>
         </div>

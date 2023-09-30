@@ -1,6 +1,10 @@
+@import '../../styles/colors';
+@import '../../styles/vars';
+@import '../../styles/mixins';
+
 %titles {
   text-transform: uppercase;
-  color: white;
+  color: $fg;
   margin: 0;
 }
 
@@ -13,12 +17,12 @@
 %text {
   text-transform: uppercase;
   line-height: 1rem;
-  color: white;
+  color: $fg;
 }
 
 .container {
   z-index: 2;
-  background: #df81ac;
+  background: $bg;
   height: auto;
 }
 
@@ -53,7 +57,7 @@
   width: fit-content;
   background: transparent;
   border: 1px solid;
-  color: white;
+  color: $fg;
   padding: 8px;
   display: flex;
   align-items: flex-end;
@@ -62,7 +66,6 @@
 .title {
   @extend %titles;
   font-size: 24px;
-  font-family: 'Asket';
 }
 
 .subtitle {
@@ -81,7 +84,7 @@
 }
 
 .description {
-  color: white;
+  color: $fg;
 }
 
 .image {
@@ -95,14 +98,6 @@
 }
 
 @media screen and (max-width: 425px) {
-  .title {
-    font-size: 16px;
-  }
-
-  .text {
-    font-size: 14px;
-  }
-
   .image {
     width: 16px;
     height: 16px;

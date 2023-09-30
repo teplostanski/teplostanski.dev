@@ -6,6 +6,7 @@ import Skills from '../components/Skills/Skills'
 import Links from '../components/Links/Links'
 import Footer from '../components/Footer/Footer'
 import { keywords, PageIndexDesc, PageIndexTitle } from '../constants'
+import ScrollSection from '../components/Timeline/Timeline'
 //import '../styles/index.scss'
 
 const Index = () => {
@@ -38,10 +39,11 @@ const Index = () => {
         <link rel="manifest" href="/site.webmanifest" />
       </Head>
       <Main />
+      <ScrollSection />
       {/*<About />*/}
-      {/*<Skills />*/}
+      <Skills />
       {/*<Links />*/}
-      {/*<Footer />*/}
+      <Footer />
     </MainLayout>
   )
 }

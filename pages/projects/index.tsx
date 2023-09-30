@@ -4,7 +4,7 @@ import { nanoid } from 'nanoid'
 import ProjectsLayout from '../../layouts/ProjectsLayout'
 import { keywords, PageProjectsDesc, PageProjectsTitle } from '../../constants'
 import data from '../../data.json'
-import img from '../../assets/images/mesto.png'
+//import img from '../../assets/images/mesto.png'
 import styles from './index.module.scss'
 
 const Projects = () => {

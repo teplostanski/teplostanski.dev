@@ -1,12 +1,17 @@
+@import '../../styles/colors';
+@import '../../styles/vars';
+@import '../../styles/mixins';
+
 .footer {
-  background: #000;
-  color: #fff;
+  background: $bg;
+  color: $fg;
   height: 95px;
   display: flex;
   justify-content: center;
-  //height: fit-content;
-  padding: 0 35px;
-  //width: 100%;
+  padding: 15px 35px 0;
+  @media screen and (max-width: #{$s + px}) {
+    height: 145px;
+  }
 }
 
 .copyright {
@@ -15,18 +20,12 @@
   justify-content: center;
   line-height: 1.5rem;
   letter-spacing: 0.2rem;
-  font-size: 0.8rem;
+  @include adaptive-font(19, 16);
   text-transform: uppercase;
   height: fit-content;
+  font-family: 'Major Mono Display', monospace;
   gap: 6px;
-}
-
-@media screen and (max-width: 425px) {
-  .copyright {
-    font-size: 0.6rem;
-  }
-
-  .footer {
-    height: 145px;
+  @media screen and (max-width: #{$s + px}) {
+    width: min-content;
   }
 }
