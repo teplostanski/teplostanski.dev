@@ -117,7 +117,7 @@ const Timeline = () => {
         anticipatePin: 1,
         //fastScrollEnd: 1, // or velocity number
         //containerAnimation: tween,
-        scrub: 0.9,
+        scrub: 1.1,
         //end: () => '+=' + width,
       },
     })
