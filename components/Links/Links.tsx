@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import data from '../../data'
+import data from '../../data.json'
 import linkArrow from '../../assets/images/link_arrow_1.svg'
 import { convertEmailLink } from '../../utils/convertLinks'
 import styles from './Links.module.scss'
