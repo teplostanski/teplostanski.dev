@@ -124,7 +124,11 @@ const Timeline = () => {
   }, [])
 
   return (
-    <div id="container" className={styles.container}>
+    <div
+      id="container"
+      style={{ width: `${projects.length + 2}00vw` }}
+      className={styles.container}
+    >
       <section id="panel" className={styles.panel}>
         <h1 className={styles.title}>timeline my projects</h1>
       </section>
