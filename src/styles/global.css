@@ -1,6 +1,14 @@
 @import url('normalize.css/normalize');
 
 body {
-  font-family: 'Courier New', Courier, monospace;
+  font-family: 'Times New Roman', Times, serif;
   margin: 8px;
+}
+
+a {
+  font-family: 'Cousine', monospace;
+}
+
+footer {
+  font-family: 'Cousine', monospace;
 }

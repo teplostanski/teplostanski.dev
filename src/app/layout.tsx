@@ -5,6 +5,8 @@ import { indexPageTitle, indexPageDesc, keywords } from './layout.metadata'
 import '@/styles/global.css'
 import Footer from './components/Footer/Footer'
 
+import '@fontsource/cousine'
+
 export const metadata = {
   title: indexPageTitle,
   description: indexPageDesc,
