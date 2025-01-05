@@ -1,35 +1,44 @@
 {
+  "name": "teplostanski.dev",
+  "version": "4.1.0",
   "private": true,
-  "dependencies": {
-    "@react-hook/window-size": "^3.1.1",
-    "@types/node": "20.3.3",
-    "@types/react": "18.2.14",
-    "@types/react-dom": "18.2.6",
-    "css-doodle": "^0.37.2",
-    "eslint": "8.44.0",
-    "eslint-config-next": "13.4.7",
-    "gsap": "^3.12.2",
-    "nanoid": "^4.0.2",
-    "next": "13.4.7",
-    "normalize.css": "^8.0.1",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
-    "react-type-animation": "^3.1.0",
-    "typescript": "5.1.6"
-  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
-    "format": "prettier . --write"
+    "lint": "next lint --fix",
+    "prettier": "prettier src/**/*.{js,ts,tsx,jsx,scss,css,md} --write --no-error-on-unmatched-pattern",
+    "prepare": "husky"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.5",
+    "@mui/material": "^5.15.17",
+    "classnames": "^2.5.1",
+    "gray-matter": "^4.0.3",
+    "markdown-to-jsx": "^7.4.7",
+    "nanoid": "^5.0.7",
+    "next": "14.2.2",
+    "normalize.css": "^8.0.1",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-icons": "^5.2.1",
+    "react-type-animation": "^3.2.0",
+    "vite-plugin-pretty-module-classnames": "^1.2.0",
+    "zustand": "^4.5.2"
   },
   "devDependencies": {
-    "@types/gsap": "^3.0.0",
-    "classnames": "^2.3.2",
-    "husky": "^8.0.3",
-    "prettier": "^3.0.0",
-    "sass": "^1.63.6"
-  },
-  "homepage": "https://teplostanski.dev/"
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "eslint": "^8.57.0",
+    "eslint-config-next": "14.2.2",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-markdown": "^4.0.1",
+    "eslint-plugin-prettier": "^5.1.3",
+    "husky": "^9.0.11",
+    "prettier": "^3.2.5",
+    "sass": "^1.75.0",
+    "typescript": "^5"
+  }
 }

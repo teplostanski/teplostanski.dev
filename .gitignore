@@ -1,9 +1,10 @@
-TODO
+# See https://help.github.com/projects/ignoring-files/ for more about ignoring files.
 
 # dependencies
 /node_modules
 /.pnp
 .pnp.js
+.yarn/install-state.gz
 
 # testing
 /coverage
