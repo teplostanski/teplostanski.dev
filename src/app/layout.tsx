@@ -1,11 +1,10 @@
 // src/app/layout.tsx
-import { ReactNode } from 'react'
-import Header from './components/Header/Header'
-import { indexPageTitle, indexPageDesc, keywords } from './layout.metadata'
 import '@/styles/global.css'
-import Footer from './components/Footer/Footer'
-
+import { ReactNode } from 'react'
+import { indexPageDesc, indexPageTitle, keywords } from './layout.metadata'
+import Providers from './providers'
 import '@fontsource/cousine'
+import { Container } from '@/components/Container/Container'
 
 export const metadata = {
   title: indexPageTitle,
@@ -53,14 +52,14 @@ export const metadata = {
   manifest: '/manifest.webmanifest',
 }
 
-export default function RootLayout({ children }: { children: ReactNode }) {
+export default async function RootLayout({
+  children,
+}: {
+  children: ReactNode
+}) {
   return (
-    <html lang='ru'>
-      <body>
-        <Header />
-        {children}
-        <Footer />
-      </body>
-    </html>
+    <Providers>
+      <Container>{children}</Container>
+    </Providers>
   )
 }
