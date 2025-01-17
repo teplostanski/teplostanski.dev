@@ -21,8 +21,8 @@ const Header = () => {
   )
 
   return (
-    <header className='flex flex-col-reverse'>
-      <nav className='flex gap-4'>
+    <header className='flex flex-col'>
+      <nav className='flex flex-wrap gap-4'>
         {isRoot ? (
           <h1>{t('title')}</h1>
         ) : (
@@ -30,7 +30,7 @@ const Header = () => {
             <BackButton />
             <Navigation
               items={navItems}
-              className='m-0 p-0 flex gap-4'
+              className='m-0 p-0 flex flex-wrap gap-4'
               itemClassName='list-none'
             />
           </>

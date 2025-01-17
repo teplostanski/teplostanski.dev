@@ -19,7 +19,8 @@ h6 {
 }
 
 p,
-span {
+span,
+a {
   text-wrap: pretty;
   text-wrap-style: pretty;
 }
