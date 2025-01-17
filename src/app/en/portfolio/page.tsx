@@ -2,12 +2,12 @@ import PreviewHeader from '@/components/PreviewHeader/PreviewHeader'
 import PreviewList from '@/components/PreviewList/PreviewList'
 import getMarkdownData from '@/shared/utils/getMarkdownData'
 
-export default function HomePageRu() {
-  const data = getMarkdownData('content/projects/ru')
+export default function HomePageEn() {
+  const data = getMarkdownData('content/portfolio/en')
 
   return (
     <main>
-      <PreviewHeader translationScope='ProjectsPage' />
+      <PreviewHeader translationScope='PortfolioPage' />
       <PreviewList data={data} />
     </main>
   )

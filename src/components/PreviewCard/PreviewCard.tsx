@@ -18,23 +18,26 @@ export default function PreviewCard({ data }: PreviewCardProps) {
   const imageSrcPath = normalizeImagePath(data.metadata.image)
 
   return (
-    <article className='space-y-4'>
+    <div className='space-y-4'>
       <hr className='my-4' />
       <h3 className='text-xl font-bold'>{data.metadata.name}</h3>
       <p>{data.metadata.description}</p>
       {imageSrcPath && (
-        <Image
-          src={imageSrcPath}
-          alt={`${data.metadata.name} ${data.metadata.description}`}
-          width={400}
-          height={300}
-          className='w-full h-auto object-cover'
-          priority
-        />
+        <div className='relative max-w-full overflow-hidden'>
+          <Image
+            src={imageSrcPath}
+            alt={`${data.metadata.name} ${data.metadata.description}`}
+            width={0}
+            height={0}
+            className='max-w-[480px] w-full h-auto object-cover'
+            priority
+          />
+        </div>
       )}
-      <Link href={href} className='inline-block text-blue-600 hover:underline'>
+      <br />
+      <Link href={href} className='inline-block text-[#0000EE] hover:underline'>
         {t('more')}
       </Link>
-    </article>
+    </div>
   )
 }

@@ -19,16 +19,18 @@ export default function ContentView({ slug, markdownData }: ContentViewProps) {
   return (
     <main>
       <article>
+        <h2>{data.metadata.name}</h2>
         {imageSrcPath && (
           <Image
             src={imageSrcPath}
             alt={`${data.metadata.name} ${data.metadata.description}`}
-            width={400}
-            height={300}
+            width={0}
+            height={0}
+            sizes='100vw'
+            className='w-full h-auto'
             priority
           />
         )}
-        <h2>{data.metadata.name}</h2>
         <MarkdownRender content={data.content} />
       </article>
     </main>

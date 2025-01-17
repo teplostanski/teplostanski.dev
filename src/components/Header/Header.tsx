@@ -14,7 +14,11 @@ const Header = () => {
   const pathname = usePathname()
   const isRoot = isPrefixPath(prefixPath, pathname)
 
-  const navItems = getNavItems(['home', 'projects'], prefixPath, t.raw)
+  const navItems = getNavItems(
+    ['home', 'projects', 'portfolio'],
+    prefixPath,
+    t.raw,
+  )
 
   return (
     <header className='flex flex-col-reverse'>

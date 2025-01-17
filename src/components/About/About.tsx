@@ -11,7 +11,7 @@ export default function About() {
   const tNav = useTranslations('Header')
   const { prefixPath } = useCurrentLocale()
 
-  const navItems = getNavItems(['projects'], prefixPath, tNav.raw)
+  const navItems = getNavItems(['projects', 'portfolio'], prefixPath, tNav.raw)
 
   return (
     <section>

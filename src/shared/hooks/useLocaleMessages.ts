@@ -9,6 +9,7 @@ const messagesRu = {
       back: 'назад',
       home: 'на главную',
       projects: 'проекты',
+      portfolio: 'портфолио',
     },
   },
   Home: {
@@ -29,6 +30,11 @@ const messagesRu = {
       'Здесь собраны мои пет-проекты и эксперименты, не ограниченные только фронтендом',
   },
 
+  PortfolioPage: {
+    title: 'портфолио',
+    description: 'Здесь собраны мои демонстрационные работы',
+  },
+
   Common: {
     language: 'Язык',
     links: 'ссылки',
@@ -43,6 +49,7 @@ const messagesEn = {
       back: 'back',
       home: 'home',
       projects: 'projects',
+      portfolio: 'portfolio',
     },
   },
   Home: {
@@ -61,6 +68,11 @@ const messagesEn = {
     title: 'projects',
     description:
       'A collection of my side projects and experiments beyond just frontend',
+  },
+
+  PortfolioPage: {
+    title: 'portfolio',
+    description: 'A collection of my demo projects',
   },
 
   Common: {

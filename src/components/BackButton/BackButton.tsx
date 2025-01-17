@@ -11,7 +11,7 @@ export default function BackButton() {
     <button
       type='button'
       onClick={() => router.back()}
-      className='bg-transparent border-none text-blue-600 underline cursor-pointer p-0'
+      className='bg-transparent border-none text-[#0000EE] underline cursor-pointer p-0'
       aria-label={t('links.back')}
     >
       &lt; {t('links.back')}

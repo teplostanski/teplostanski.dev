@@ -19,4 +19,10 @@ export const NAV_ITEMS: Record<
     label: 'links.projects',
     pathTemplate: '/projects',
   },
+  portfolio: {
+    id: 'nav_block_portfolio',
+    name: 'portfolio',
+    label: 'links.portfolio',
+    pathTemplate: '/portfolio',
+  },
 }
