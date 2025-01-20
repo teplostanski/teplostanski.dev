@@ -1,21 +1,19 @@
 'use client'
 
-// import { useTranslations } from 'use-intl'
 import { useEffect } from 'react'
+import { useTranslations } from 'use-intl'
+import { CONSOLE_STYLES } from '../config/constants/constants'
 
 export const PiDayConsoleMessage = () => {
-  // const t = useTranslations('Messages.console.welcome')
-
-  const TITLE_STYLE = 'font-size: 20px; font-weight: bold;'
-  const TEXT_STYLE = 'font-size: 13px;'
-
-  const title = 'С днём π! 🌟'
-  const description =
-    'Сегодня 14 марта, и это значит, что сегодня — Международный день π!'
+  const t = useTranslations('Console.piDay')
 
   useEffect(() => {
-    console.log(`%c${title}\n\n%c${description}`, TITLE_STYLE, TEXT_STYLE)
-  }, [])
+    console.log(
+      `%c${t('title')}\n\n%c${t('message')}`,
+      CONSOLE_STYLES.title,
+      CONSOLE_STYLES.text,
+    )
+  }, [t])
 
   return null
 }

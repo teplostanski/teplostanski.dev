@@ -21,7 +21,13 @@ export const TIME = {
 export const DATES = {
   programmersDayNumber: 256,
   piDay: {
-    month: 2, // март (0-based)
+    month: 2, // март
     date: 14,
   },
+} as const
+
+export const CONSOLE_STYLES = {
+  title: 'font-size: 20px; font-weight: bold;',
+  subtitle: 'font-size: 16px; font-weight: bold;',
+  text: 'font-size: 13px;',
 } as const

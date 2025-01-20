@@ -3,6 +3,14 @@ export const links = {
     label: 'teplostanski',
     link: 'https://github.com/teplostanski',
   },
+  issue: {
+    label: 'issue',
+    link: 'https://github.com/teplostanski/teplostanski.dev/issues',
+  },
+  donate: {
+    label: 'donate',
+    link: 'https://donate.teplostanski.dev',
+  },
   doka: {
     label: '',
     link: 'http://doka.guide',

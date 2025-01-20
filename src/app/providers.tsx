@@ -19,9 +19,9 @@ export default function Providers({ children }: { children: React.ReactNode }) {
   return (
     <html lang={locale} className='light'>
       <body>
-        <ConsoleMessages />
         <IntlProvider timeZone={timeZone} locale={locale} messages={messages}>
-          <div className=''>
+          <div>
+            <ConsoleMessages />
             <Header />
             {children}
             <Footer />
