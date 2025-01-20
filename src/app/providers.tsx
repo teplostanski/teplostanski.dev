@@ -7,6 +7,7 @@ import { useRouter } from 'next/navigation'
 import { useCurrentLocale } from '@/shared/hooks/useCurrentLocale'
 import Header from '@/components/Header/Header'
 import Footer from '@/components/Footer/Footer'
+import { ConsoleMessages } from '@/shared/ConsoleMessages'
 
 export default function Providers({ children }: { children: React.ReactNode }) {
   const { locale } = useCurrentLocale()
@@ -18,6 +19,7 @@ export default function Providers({ children }: { children: React.ReactNode }) {
   return (
     <html lang={locale} className='light'>
       <body>
+        <ConsoleMessages />
         <IntlProvider timeZone={timeZone} locale={locale} messages={messages}>
           <div className=''>
             <Header />
