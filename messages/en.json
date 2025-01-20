@@ -1,0 +1,53 @@
+{
+  "Header": {
+    "title": "igor teplostanski",
+    "links": {
+      "back": "back",
+      "home": "home",
+      "projects": "projects",
+      "portfolio": "portfolio"
+    }
+  },
+  "Home": {
+    "disclaimer": "All good! CSS styles have loaded successfully ;3",
+    "about": {
+      "messages": {
+        "first": "Hi everyone 👋 My name is Igor, and I'm a frontend developer. In my free time, I write for <doka_guide>doka.guide</doka_guide>, develop <vite_plugin>vite-plugin-pretty-module-classnames</vite_plugin>, and work on <moonbloom_theme>Moonbloom Theme</moonbloom_theme>.",
+        "second": "I enjoy creating applications and open-source projects. Below, I've left all the necessary links for you 👇"
+      }
+    }
+  },
+  "ProjectsPage": {
+    "title": "projects",
+    "description": "A collection of my side projects and experiments beyond just frontend"
+  },
+  "PortfolioPage": {
+    "title": "portfolio",
+    "description": "A collection of my demo projects"
+  },
+  "Common": {
+    "language": "Language",
+    "links": "links",
+    "more": "more..."
+  },
+  "Console": {
+    "welcome": {
+      "title": "Hello, world!",
+      "description": "I appreciate your curiosity! 🌟",
+      "contribute": "If you found any bugs, please create an issue or send me an email.",
+      "donate": "If you can support financially, that would be great! Link below 👇",
+      "issueTitle": "Issue",
+      "emailTitle": "Email",
+      "donateTitle": "Donate",
+      "happyHacking": "Happy hacking! 🚀"
+    },
+    "piDay": {
+      "title": "Happy π day! 🥧",
+      "message": "Today is March 14th, which means it's International π Day!\nWhy exactly today? Because 3.14 — is the beginning of the number π!"
+    },
+    "programmersDay": {
+      "title": "Happy Programmer's Day! 💻",
+      "message": "Today is the 256th day of the year, which means it's International Programmer's Day!\n\nWhich you, as always, spend at the computer! Go outside, get some fresh air! Your pale skin suggests you really need it!\n\nAnd if you're not a developer but a regular user, what are you doing here? 🤨 Anyway, now you know what day it is! Congratulate your developer friend on their professional holiday!"
+    }
+  }
+} 

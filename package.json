@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
+    "start": "serve out",
     "lint": "next lint --fix",
     "prettier": "prettier src/**/*.{js,ts,tsx,jsx,scss,css,md} --write --no-error-on-unmatched-pattern",
     "prepare": "husky"
@@ -40,6 +40,7 @@
     "husky": "^9.0.11",
     "prettier": "^3.2.5",
     "sass": "^1.75.0",
+    "serve": "^14.2.4",
     "tailwindcss": "^3.4.17",
     "typescript": "^5"
   }
