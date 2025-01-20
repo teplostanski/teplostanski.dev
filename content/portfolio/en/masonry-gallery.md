@@ -1,7 +1,7 @@
 ---
 name: 'Masonry Gallery'
 description: 'An image gallery with Pinterest-style masonry layout. Clicking on an image opens a fullscreen modal window with swipe-enabled navigation between images.'
-image: '/images/masonry-gallery.png'
+image: '/images/masonry-gallery.webp'
 ---
 
 An image gallery with Pinterest-style masonry layout. Clicking on an image opens a fullscreen modal window with swipe-enabled navigation between images.

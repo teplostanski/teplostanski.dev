@@ -11,14 +11,6 @@ interface MdLinkProps extends ChildrenProps {
   href?: string
 }
 
-const MdTitle = ({ children }: ChildrenProps) => {
-  return <h1>{children}</h1>
-}
-
-const MdSubtitle = ({ children }: ChildrenProps) => {
-  return <h2>{children}</h2>
-}
-
 const Mdproject = ({ children }: ChildrenProps) => (
   <article className='leading-6'>{children}</article>
 )
@@ -29,30 +21,14 @@ const MdLink = ({ children, href }: MdLinkProps) => (
   </a>
 )
 
-const MdList = ({ children }: ChildrenProps) => <li>{children}</li>
-
 const mdOptions = {
   wrapper: Mdproject,
   overrides: {
-    h1: {
-      component: MdTitle,
-    },
-    h2: {
-      component: MdSubtitle,
-    },
     img: {
       component: PrefixedImage,
     },
-    li: {
-      component: MdList,
-    },
     a: {
       component: MdLink,
-    },
-    code: {
-      props: {
-        className: 'bg-zinc-500/50',
-      },
     },
   },
 }

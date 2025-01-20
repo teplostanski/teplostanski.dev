@@ -23,7 +23,7 @@ export default function Navigation({
     <ul className={className} role='menubar'>
       {items.map(({ id, label, path }) => (
         <li key={nanoid()} id={id} className={itemClassName} role='menuitem'>
-          <Link className='text-[#0000EE]' href={path}>
+          <Link className='visited:text-[#0000EE]' href={path}>
             {label}
           </Link>
         </li>

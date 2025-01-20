@@ -20,7 +20,7 @@ export default function PreviewCard({ data }: PreviewCardProps) {
   return (
     <div className='space-y-4'>
       <hr className='my-4' />
-      <h3 className='text-xl font-bold'>{data.metadata.name}</h3>
+      <h2 className='text-xl font-bold'>{data.metadata.name}</h2>
       <p>{data.metadata.description}</p>
       {imageSrcPath && (
         <div className='relative max-w-full overflow-hidden'>
@@ -35,7 +35,7 @@ export default function PreviewCard({ data }: PreviewCardProps) {
         </div>
       )}
       <br />
-      <Link href={href} className='inline-block text-[#0000EE] hover:underline'>
+      <Link href={href} className='visited:text-[#0000EE]'>
         {t('more')}
       </Link>
     </div>
