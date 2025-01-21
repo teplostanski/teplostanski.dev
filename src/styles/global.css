@@ -118,3 +118,7 @@ hr {
 code {
   background-color: #d3d3d3;
 }
+
+li {
+  margin-bottom: 0.4em;
+}

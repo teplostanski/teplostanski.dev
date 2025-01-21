@@ -10,9 +10,12 @@ const nextConfig = {
   pageExtensions: ['js', 'jsx', 'mdx', 'ts', 'tsx'],
   basePath: isProd && repoName ? `/${repoName}` : '',
   assetPrefix: isProd && repoName ? `/${repoName}/` : '',
+  swcMinify: true,
   images: {
     unoptimized: true
   },
+  productionBrowserSourceMaps: false,
+  optimizeFonts: true,
   output: 'export',
 }
 
