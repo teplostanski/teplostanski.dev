@@ -1,7 +1,4 @@
-const LOCALES = [
-  { code: 'ru', name: 'Русский', prefix: '/' },
-  { code: 'en', name: 'English', prefix: '/en' },
-] as const
+import { LOCALES } from '../config/constants/constants'
 
 export type Locale = (typeof LOCALES)[number]['code']
 

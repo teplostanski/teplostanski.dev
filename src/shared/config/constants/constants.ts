@@ -31,3 +31,8 @@ export const CONSOLE_STYLES = {
   subtitle: 'font-size: 16px; font-weight: bold;',
   text: 'font-size: 13px;',
 } as const
+
+export const LOCALES = [
+  { code: 'ru', name: 'Русский', prefix: '/' },
+  { code: 'en', name: 'English', prefix: '/en' },
+] as const

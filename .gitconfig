@@ -1,0 +1,4 @@
+[alias]
+    # Изменить время последнего коммита
+    # Использование: git timetravel "2024-03-24 12:00:00 +0300"
+    timetravel = "!f() { GIT_COMMITTER_DATE=\"$1\" git commit --amend --date=\"$1\" --no-edit; }; f" 

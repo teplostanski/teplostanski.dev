@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Ответ на главный вопрос жизни, вселенной и всего такого - 42 -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+    <url>
+      <loc>https://teplostanski.dev/portfolio</loc>
+      <lastmod>2025-01-17</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  
+    <url>
+      <loc>https://teplostanski.dev/en/portfolio</loc>
+      <lastmod>2025-01-17</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  
+    <url>
+      <loc>https://teplostanski.dev/portfolio/masonry-gallery</loc>
+      <lastmod>2025-01-19</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  
+    <url>
+      <loc>https://teplostanski.dev/en/portfolio/masonry-gallery</loc>
+      <lastmod>2025-01-19</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  
+    <url>
+      <loc>https://teplostanski.dev/projects</loc>
+      <lastmod>2025-01-17</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  
+    <url>
+      <loc>https://teplostanski.dev/en/projects</loc>
+      <lastmod>2025-01-17</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  
+    <url>
+      <loc>https://teplostanski.dev/projects/moonbloom-theme</loc>
+      <lastmod>2025-01-19</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  
+    <url>
+      <loc>https://teplostanski.dev/en/projects/moonbloom-theme</loc>
+      <lastmod>2025-01-19</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  
+    <url>
+      <loc>https://teplostanski.dev/projects/vite-plugin-pretty-module-classnames</loc>
+      <lastmod>2025-01-19</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  
+    <url>
+      <loc>https://teplostanski.dev/en/projects/vite-plugin-pretty-module-classnames</loc>
+      <lastmod>2025-01-19</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  
+    <url>
+      <loc>https://teplostanski.dev/</loc>
+      <lastmod>2025-01-21</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>1.0</priority>
+    </url>
+  
+    <url>
+      <loc>https://teplostanski.dev/en/</loc>
+      <lastmod>2025-01-21</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>1.0</priority>
+    </url>
+  
+</urlset>

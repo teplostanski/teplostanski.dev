@@ -2,13 +2,16 @@
   "name": "teplostanski.dev",
   "version": "v6",
   "private": true,
+  "type": "module",
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "npm run compile-constants && node scripts/generateSitemap.mjs && next build",
     "start": "serve out",
     "lint": "next lint --fix",
     "format": "prettier src/**/*.{js,ts,tsx,jsx,scss,css,md} --write --no-error-on-unmatched-pattern",
-    "prepare": "husky"
+    "prepare": "husky",
+    "compile-constants": "tsc src/shared/config/constants/constants.ts --outDir scripts/constants --module es2015 --moduleResolution node --esModuleInterop",
+    "sitemap": "npm run compile-constants && node scripts/generateSitemap.mjs"
   },
   "dependencies": {
     "@fontsource/cousine": "^5.1.1",
