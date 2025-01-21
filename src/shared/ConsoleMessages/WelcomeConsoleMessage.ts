@@ -24,7 +24,7 @@ export const WelcomeConsoleMessage = () => {
       CONSOLE_STYLES.text,
       CONSOLE_STYLES.subtitle,
     )
-  }, [t])
+  }, [t, donate, issue, email])
 
   return null
 }
