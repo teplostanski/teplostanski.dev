@@ -31,7 +31,7 @@ const Header = () => {
             <Navigation
               items={navItems}
               className='m-0 p-0 flex flex-wrap gap-4'
-              itemClassName='list-none'
+              itemClassName='list-none m-0'
             />
           </>
         )}
