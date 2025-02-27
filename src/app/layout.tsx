@@ -3,8 +3,27 @@ import '@/styles/global.css'
 import { ReactNode } from 'react'
 import { indexPageDesc, indexPageTitle, keywords } from './layout.metadata'
 import Providers from './providers'
-import '@fontsource/cousine'
 import { Container } from '@/components/Container/Container'
+import localFont from 'next/font/local'
+
+const fastSans = localFont({
+  src: [
+    {
+      path: '../shared/fonts/Fast_Sans.ttf',
+      weight: '400',
+      style: 'normal',
+    },
+    {
+      path: '../shared/fonts/Fast_Sans_Dotted.ttf',
+      weight: '700',
+      style: 'normal',
+    },
+  ],
+  display: 'swap',
+  preload: true,
+  fallback: ['system-ui', 'arial'],
+  variable: '--font-fast-sans',
+})
 
 export const metadata = {
   title: indexPageTitle,
@@ -58,7 +77,7 @@ export default async function RootLayout({
   children: ReactNode
 }) {
   return (
-    <Providers>
+    <Providers className={`${fastSans.variable} ${fastSans.className}`}>
       <Container>{children}</Container>
     </Providers>
   )

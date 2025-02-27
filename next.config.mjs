@@ -17,6 +17,10 @@ const nextConfig = {
   productionBrowserSourceMaps: false,
   optimizeFonts: true,
   output: 'export',
+  experimental: {
+    optimizeCss: true,
+    optimizeServerReact: true
+  }
 }
 
 export default nextConfig;

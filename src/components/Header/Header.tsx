@@ -7,6 +7,7 @@ import { isPrefixPath } from '@/shared/utils/isPrefixPath'
 import { usePathname } from 'next/navigation'
 import Navigation from '../Navigation/Navigation'
 import { getNavItems } from '@/shared/utils/getNavItems'
+import { EggMessageButton } from '@/shared/ConsoleMessages/EggMessages'
 
 const Header = () => {
   const t = useTranslations('Header')
@@ -24,7 +25,9 @@ const Header = () => {
     <header className='flex flex-col'>
       <nav className='flex flex-wrap gap-4'>
         {isRoot ? (
-          <h1>{t('title')}</h1>
+          <EggMessageButton>
+            <h1>{t('title')}</h1>
+          </EggMessageButton>
         ) : (
           <>
             <BackButton />

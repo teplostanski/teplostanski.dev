@@ -8,7 +8,7 @@ html {
 }
 
 body {
-  font-family: 'Cousine', monospace;
+  font-family: var(--font-fast-sans), system-ui, arial;
   margin: 8px;
 }
 
@@ -51,6 +51,11 @@ a {
 
 a:visited {
   color: #551a8b;
+}
+
+p,
+span {
+  line-height: 1.5em;
 }
 
 p,

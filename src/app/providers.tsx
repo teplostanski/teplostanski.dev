@@ -9,7 +9,13 @@ import Header from '@/components/Header/Header'
 import Footer from '@/components/Footer/Footer'
 import { ConsoleMessages } from '@/shared/ConsoleMessages'
 
-export default function Providers({ children }: { children: React.ReactNode }) {
+export default function Providers({
+  children,
+  className,
+}: {
+  children: React.ReactNode
+  className: string
+}) {
   const { locale } = useCurrentLocale()
   const messages = useLocaleMessages()
   const router = useRouter()
@@ -17,7 +23,7 @@ export default function Providers({ children }: { children: React.ReactNode }) {
   const timeZone = Intl.DateTimeFormat().resolvedOptions().timeZone
 
   return (
-    <html lang={locale} className='light'>
+    <html lang={locale} className={className}>
       <body>
         <IntlProvider timeZone={timeZone} locale={locale} messages={messages}>
           <div>

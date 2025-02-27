@@ -48,6 +48,18 @@
     "programmersDay": {
       "title": "Happy Programmer's Day! 💻",
       "message": "Today is the 256th day of the year, which means it's International Programmer's Day!\n\nWhich you, as always, spend at the computer! Go outside, get some fresh air! Your pale skin suggests you really need it!\n\nAnd if you're not a developer but a regular user, what are you doing here? 🤨 Anyway, now you know what day it is! Congratulate your developer friend on their professional holiday!"
+    },
+    "egg": {
+      "tryAgain": "Try again",
+      "avabraKedabra": "Avabra Kedabra 🪄",
+      "oneMore": "One more time",
+      "dontGiveUp": "Don't give up",
+      "keepGoing": "Keep going",
+      "rightTrack": "You're on the right track",
+      "almostThere": "Almost there",
+      "gettingCloser": "Getting closer",
+      "nearGoal": "You're near the goal",
+      "finalPrize": "I don't know why you needed to do this, but here's your prize \n\n🎈🤡\n\nYes, it's just a clown emoji with a balloon"
     }
   }
-} 
+}
